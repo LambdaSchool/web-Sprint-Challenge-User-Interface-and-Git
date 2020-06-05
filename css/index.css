@@ -23,6 +23,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -65,10 +66,51 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+header {
+    text-align: center;
 
+}
+nav {
+    display:flex;
+    justify-content: space-between;
+    width: 48%;
+    margin: 2% 26%;
+    align-items: flex-end;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+ }
+.bannerImg {
+    margin-bottom: 1.5%;
+}
 .container {
     width: 800px;
     margin: 0 auto;
+}
+.thisContainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    margin: 0 auto;
+}
+.thisContainer section {
+    border-bottom: 1px dotted black;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+.thisContainer div {
+    width: 50%;
+    border-bottom: 1px dotted black;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+}
+.thisContainer button {
+    text-decoration: none;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+
 }
 
 .top-content {
@@ -127,20 +169,31 @@ p {
 }
 
 footer {
+    display:flex;
     width: 100%;
     background: black;
 }
 
 footer nav {
-    width: 60%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
+    justify-content: flex-start;
+    padding: 15px 0%;
     font-size: 14px;
+    margin-left: 8%;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+    margin-right: 60%;
+}
+.aboutFooter {
+    display: flex;
+    height: 50px;
+}
+.aboutFooter a {
+    margin-right: 25%;
+}
+.learn {
+    margin-bottom: 15px;
 }
