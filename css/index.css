@@ -71,11 +71,28 @@ p {
     margin: 0 auto;
 }
 
+.mainnav {
+    margin: 30px 0px;
+}
+
+.mainnav nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-right: 30px;
+}
+
+.mainnav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin: 20px 0px;
     border-bottom: 1px dashed black;
 }
 
@@ -104,12 +121,52 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.color1 {
+    background-color: teal;
+}
+
+.color2 {
+    background-color: gold;
+}
+
+.color3 {
+    background-color: cadetblue;
+}
+
+.color4 {
+    background-color: coral;
+}
+
+.color5 {
+    background-color: crimson;
+}
+
+.color6 {
+    background-color: forestgreen;
+}
+
+.color7 {
+    background-color: darkorchid;
+}
+
+.color8 {
+    background-color: hotpink;
+}
+
+.color9 {
+    background-color: indigo;
+}
+
+.color10 {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +200,53 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* About page CSS*/
+
+.first-section {
+    padding: 15px;
+    margin: 30px 0px;
+    border-bottom: 1px dashed black;
+}
+
+.first-section h2 {
+    font-weight: bold;
+}
+
+.second-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.second-section div {
+    width: 46%;
+    margin: 20px 0px;
+    border-bottom: 1px dashed black;
+}
+
+.second-section img {
+    display: flex;
+    flex-shrink: inherit;
+}
+
+.second-section div h2 {
+    margin: 10px 0px;
+}
+
+.second-section div button {
+    width: 125px;
+    height: 40px;
+    margin: 15px 0px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 16px;
+    color: rgb(87, 85, 85);
+}
+
+.third-section {
+    margin: 30px 0px;
 }
