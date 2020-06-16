@@ -1,0 +1,191 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+
+p {
+    line-height: 1.4;
+    width: 53%;
+}
+
+span {
+  line-height: 1.4;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.top-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.section1 {
+  border-bottom: 1px dashed black;
+    font-weight: bold;
+}
+
+.top-content .text-container {
+    width: 60%;
+    padding: 1em 1%;
+    padding-bottom: 20px;  
+    font-weight: bold;
+}
+
+.text-container {
+    padding-right: 4%;
+}
+
+footer {
+    width: 100%;
+    background: black;
+}
+
+nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.firstImg {
+  margin:2em 0em 1em;
+}
+
+a  {
+color: black;
+text-decoration: none;
+}
+
+nav { 
+    width: 800px; 
+  margin: 0 auto;
+  align-items:flex-end;
+  font-weight: bold;
+}
+
+.learnMore {
+  color: black;
+  border: 2px solid black;
+  padding: 10px 25px;
+  display: inline-block;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top:1em;
+}
+
+
+.home2 {
+  margin: 0 auto;
+  width: 49.7%;
+  display: inline-block;
+  height: 400px;
+}
+
+.home2 {
+  border-bottom: 1px dashed black;
+  border-bottom: 1em;
+}
+
+.home2 {
+  font-size: 18px;
+  font-weight: bold;
+  font-color:black;
+  
+}
+
+.center {
+  width: 100%;
+}
+
+.home2_first img {
+  margin-top:5%;
+  padding: 0;
+}
+
+.home2_second img {
+  padding: 0;
+}
+
+.text-container2 {
+     width: 60%;
+    padding: 1em 1%;
+    padding-bottom: 20px;  
+    font-weight: bold;
+}
+
+.bottom {
+  margin-top:3em;
+  border-top: 1px dashed black;
+}
