@@ -3,7 +3,7 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
+/* html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+/*article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -143,4 +143,191 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
-}
+}*/
+
+html {
+    font-family: sans-serif;
+    margin: 7%;
+    }
+/* header img {
+    display: flex;
+    flex: wrap;
+    size: 20%;
+}*/
+  
+
+  header nav a {   
+    display: flex; 
+    text-decoration: none;
+    padding: 1%;
+    padding-bottom: 2%;
+    font-size: 1rem;
+    margin-left: 0;
+    margin-right: 0;
+    color: black; 
+    background-color: white;
+    }
+
+   /* .nav-header {
+     display: flex; 
+    text-decoration: none;
+    font-size: 1rem;
+    /*color: black;*/
+    */
+    header {
+      display: flex;
+      align-items: center;
+      /*flex-direction: row;*/
+      padding-bottom: 2%;
+     
+  }
+  
+  /*display: flex;
+    flex-direction: row;*/
+  .top-content{
+      display:flex;     
+    }
+
+  .text-container1 {
+      width: 50%;
+      padding: 1%;
+    }
+
+  .text-container2 {
+    width: 50%;
+    }
+
+  h2 {
+    font-size: 1rem;
+    }
+  
+ /* .middle-content {
+    padding: 2%;
+    margin: 2%; 
+    display: flex;
+    flex-wrap: wrap;
+  }*/
+
+  .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    }
+
+  .box1 {
+    background: teal;
+    color: white;
+    padding: 2%;
+    margin: 2%; 
+    }
+  
+  .box2 {
+    background: gold;
+    color: white;
+    padding: 2%;
+    margin: 2%;
+    }
+  
+  .box3 {
+    background: cadetblue;
+    color: white;
+    padding: 2%;
+    margin: 2%;
+    }
+
+  .box4 {
+    background: coral;
+    color: white;
+    padding: 2%;
+    margin: 2%;
+    }
+
+  .box5 {
+    background: crimson;
+    color: white;
+    padding: 2%;
+    margin: 2%;
+    }
+
+  .boxes2 {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    /*padding: 2%;
+    margin: 2%;*/
+    }
+  
+  .box6 {
+    background: forestgreen;
+    color: white;
+    padding: 2%;
+    margin: 2%;   
+    }
+
+  .box7 {
+    background: darkorchid;
+    color: white;
+    padding: 2%;
+    margin: 2%; 
+    }
+
+  .box8 {
+    background: hotpink;
+    color: white;
+    padding: 2%;
+    margin: 2%; 
+    }
+
+  .box9 {
+    background: indigo;
+    color: white;
+    padding: 2%;
+    margin: 2%; 
+    }
+
+  .box10 {
+    background: dodgerblue;
+    color: white;
+    padding: 2%;
+    margin: 2%; 
+    text-align: center;
+    }
+
+    .bottom-content{
+        display:flex;     
+      }
+  
+    .text-container3 {
+        width: 50%;
+        padding: 1%;
+      }
+  
+    .text-container4 {
+      width: 50%;
+      padding: 1%;
+      }
+
+    .text-container5 {
+        width: 50%;
+        padding: 1%;
+      }
+
+  footer nav a {
+    color: white;  
+    text-decoration: none;
+    padding: 1%;
+    font-size: 1rem;
+    }
+
+    /*header nav a {    
+        text-decoration: none;
+        padding: 1%;
+        font-size: 1rem;
+        color: white;
+    }*/
+  nav  {  
+      background-color: black; color: white;
+    }  
+  /*.head {
+    display: flex;
+  }*/  
