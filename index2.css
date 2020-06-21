@@ -1,0 +1,114 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.links {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+a{
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 10px;
+}
+
+.container2{
+	display: flex; 
+}
+
+.container3{
+	display: flex;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    padding: 10px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+	padding: 10px;
+}
+
+.imgA{
+	border-bottom: 1px dashed black;
+
+}
+
+.column {
+	/*width: 48%; */
+    padding: 0 1%;
+	padding-bottom: 20px; 
+	
+}
+
+button{
+		background-color: black; 
+        height: 3rem;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 25px;
+		margin-right: 15rem;
+}
+
+
