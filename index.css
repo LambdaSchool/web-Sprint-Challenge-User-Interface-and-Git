@@ -66,9 +66,47 @@ p {
     line-height: 1.4;
 }
 
+/* Used flex-start to make sure the navbar started in the right side and not the left*/
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5% 2.5%;
+    
+}
+
+.navbar {
+    list-style: none;
+}
+
+/* Used inline-flex to layout the navbar horizontally */
+
+.navbar li {
+    display: inline-flex;
+    margin-left: 4rem;
+    margin-top: 1rem;
+    
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s ease 0s;
+    
+}
+
+.navbar li a:hover {
+    color: gray;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+#top_photo {
+    margin-bottom: 1rem;
 }
 
 .top-content {
@@ -77,6 +115,7 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    align-items: flex-end;
 }
 
 .top-content .text-container {
@@ -144,3 +183,4 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+

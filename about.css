@@ -1,0 +1,168 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+h1, h2, h3, h4, h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+
+/* Used flex-start to make sure the navbar started in the right side and not the left*/
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5% 2.5%;
+    
+}
+
+.navbar {
+    list-style: none;
+}
+
+.navbar li {
+    display: inline-flex;
+    margin-left: 4rem;
+    margin-top: 1rem;
+    
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s ease 0s;
+    
+}
+
+.navbar li a:hover {
+    color: gray;
+}
+
+.containerabout_page {
+    width: 800px;
+    margin: 0 auto;
+}
+
+#header_img {
+    margin-bottom: 3%;
+}
+
+.top_section {
+    border-bottom: 1px dashed black;
+    padding-bottom: 4%;
+    margin-bottom: 4%;
+}
+
+.learnmore_btn {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    text-align: center;
+    padding: 2% 6%;
+    border-radius: 11%;
+}
+
+.btn_container {
+    margin: 7% 0;
+}
+
+/* Used inline-flex to layout all the content horizontally */
+
+.middle_content {
+    display: inline-flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+
+}
+
+.middle_content2 {
+    display: inline-flex
+}
+
+.text-container {
+    border-bottom: 1px dashed black;
+    line-height: 150%;
+    margin: 0 2%;
+}
+
+.footer_content {
+    margin: 5% 2%;
+}
+
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
+
