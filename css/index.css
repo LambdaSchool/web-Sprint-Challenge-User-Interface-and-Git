@@ -65,6 +65,37 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+/* The Home Page starts here */
+
+html {
+    box-sizing: border-box;
+}
+header {
+    width: 800px;
+    height: 100px;
+    margin: 0 auto;
+    padding: 50px 0 50px 0;
+}
+nav {
+    display: inline;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    margin-right: 45px;
+}
+
+.header_graphic {
+    width: 800px;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 0 20px 0;
+}
 
 .container {
     width: 800px;
@@ -144,3 +175,39 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* The About Page starts here */
+
+.container .about-page{
+    display: flex;
+    font-size: 20px;
+}
+.reasons {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 0 20px 0;
+}
+.reasons > div {
+    width: 380px;
+    margin: 10px;
+    padding: 20px;
+  }
+.reasons img{
+    width: 100%;
+}
+.line {
+    border-bottom: 1px solid black;
+    padding: 5px 0 20px 0;
+}
+.work_together {
+    padding: 20px 0 20px 0;
+}
+.button {
+    font-size: 20px;
+    background-color: white;
+    border-radius: 10%;
+    padding: 5px;
+ }
