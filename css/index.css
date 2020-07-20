@@ -101,10 +101,9 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box{
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +142,91 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* My CSS Below */
+header{
+    width: 800px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 20px 0px 20px 0px;
+}
+
+#logo {
+    margin: 0;
+}
+
+header a{
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;
+}
+
+.container img {
+    margin: 20px 0 20px 0;
+}
+
+#box1 {
+    background: teal;
+}
+#box2 {
+    background: gold;
+}
+#box3 {
+    background: cadetblue;
+}
+#box4 {
+    background: coral;
+}
+#box5 {
+    background: crimson;
+}
+#box6 {
+    background: forestgreen;
+}
+#box7 {
+    background: darkorchid;
+}
+#box8 {
+    background: hotpink;
+}
+#box9 {
+    background: indigo;
+}
+#box10 {
+    background: dodgerblue;
+}
+
+.about-top {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+.about-top p {
+    margin: 20px;
+}
+.about-middle{
+    display: flex;
+    align-content: space-around;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.about-middle-content{
+    width: 48%;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+}
+.learnmore {
+    width: 8rem;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+.about-bottom {
+    padding: 20px 0 40px 0;
 }
