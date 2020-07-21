@@ -29,7 +29,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    padding:.5rem;
 }
 ol, ul {
 	list-style: none;
@@ -54,7 +55,86 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+
 }
+
+#jumboAbout{
+        margin-left:22%;
+    }
+
+    
+#jumbo{
+    margin-left:19rem;
+    width:58%;
+}
+        
+
+
+
+.flexContainer{
+    display:flex;
+    justify-content:space-between;
+}
+
+
+.rightFlex{
+    flex:1;
+    margin-right:16%;
+}
+
+
+.btnToolbar{
+    padding:1rem;
+    display:flex;
+    justify-content:space-between;
+    color:black;
+    margin-right: 4.3rem;
+    margin-left:2rem;
+}
+
+.bottom{
+    margin:2rem;
+}
+
+#move{
+    margin-left:1rem;
+}
+
+body nav a{
+    color:black;
+    text-decoration: none;
+}
+
+#btnA{
+    margin-top:2.3rem;
+}
+
+#btnB{
+    margin-top:2.3rem;
+}
+
+#btnC{
+    margin-top:2.3rem;
+}
+
+#btnD{
+    margin-top:2.3rem;
+}
+
+#btnE{
+    margin-top:2.3rem;
+}
+
+
+
+
+
+#lambda{
+    padding:1rem;
+    margin-left:23%;
+    
+}
+
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
@@ -64,6 +144,29 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+}
+
+
+button{
+    outline:black;
+    background:white;
+    width:6rem;
+    height:2rem;
+    border-radius:.5rem;
+    margin-bottom:.5rem;
+}
+
+
+
+.flexF2{
+    display: flex;
+    flex-direction: row;
+}
+
+.flexContent{
+    margin: 20px 2%;
+    border-bottom: 1px dashed black;
+    
 }
 
 .container {
@@ -101,6 +204,48 @@ p {
     justify-content: space-evenly;
 }
 
+#boxA{
+    background-color:teal;
+}
+
+#boxB{
+    background-color:gold;
+}
+
+#boxC{
+    background-color:cadetblue;
+}
+
+#boxD{
+    background-color:coral;
+}
+
+#boxE{
+    background-color:crimson;
+}
+
+#boxF{
+    background-color:forestgreen;
+}
+
+#boxG{
+    background-color:darkorchid
+}
+
+#boxH{
+    background-color:hotpink;
+}
+
+#boxI{
+    background-color:indigo;
+}
+
+#boxJ{
+    background-color:dodgerblue;
+}
+
+
+
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
@@ -120,6 +265,12 @@ p {
 
 .bottom-content .text-container {
     padding-right: 4%;
+}
+
+
+
+.space{
+   margin-top:1rem; 
 }
 
 .bottom-content .text-container:last-child {
