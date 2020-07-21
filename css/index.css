@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    border: 1px solid black;
 }
 
 html, body {
@@ -143,4 +144,145 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* My CSS */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-bottom: 2%; */
+    margin-right: 100px;
+}
+
+.nav-links ul {
+    /*  */
+    /* padding: 10px 1%; */
+    display: flex;
+
+}
+.nav-links li {
+    list-style: none;
+    padding: 10px 20px;
+}
+.nav-links li a {
+    text-decoration: none;
+    display: block;
+    padding: 1rem;
+    color: black;
+}
+
+.nav-links li a:hover{
+    color:white;
+    background-color: darkgray;
+    border-radius: 10px;
+}
+
+.container{
+    margin-top: 2%;
+
+}
+
+.top-image{
+    margin-bottom: 2%;
+
+}
+
+.boxes .box.one {
+    background-color:teal ;
+}
+
+.boxes .box.two {
+    background-color:gold;
+}
+.boxes .box.three {
+    background-color:cadetblue;
+}
+.boxes .box.four {
+    background-color: coral;
+}
+.boxes .box.five {
+    background-color: crimson;
+}
+.boxes .box.six {
+    background-color: forestgreen;
+}
+.boxes .box.seven {
+    background-color: darkorchid;
+}
+.boxes .box.eight {
+    background-color: hotpink;
+}
+.boxes .box.nine {
+    background-color: indigo;
+}
+.boxes .box.ten {
+    background-color: dodgerblue;
+}
+
+
+/* About Section */
+.about-middle-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.about-middle-content .about-box {
+    width: 48%;
+    /* padding: 0 1%; */
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+    /* margin-bottom: 70px; */
+}
+
+.about-box img {
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.about-box button{
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px 25px;
+    margin: 15px 0;
+    padding-top: 8px;
+    padding-bottom: 1px;
+    border: 2px solid black;
+}
+
+.about-box button h3{
+     text-align: center;
+     /* line-height: 0px; */
+}
+
+.about-box button:hover{
+    cursor: pointer;
+    background-color: lightblue;
+}
+
+
+.last-para{
+    /* margin-bottom: 40px; */
+    /* margin-top: 50px; */
+    margin: 50px 10px;
+}
+
+.top-image img{
+    margin-top: 10px;
+}
+
+.about-section{
+    /* width: 80%; */
+    padding: 0 20px;
+}
+footer nav a{
+    padding: 2px;
+}
+
+footer nav a:hover{
+    color: white;
+    background-color: darkgrey;
+
+    border-radius: 10px;
 }
