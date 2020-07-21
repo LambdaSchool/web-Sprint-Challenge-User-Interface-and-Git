@@ -1,0 +1,199 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+span, applet, object, iframe, blockquote, pre,
+ abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, hgroup, 
+menu, output, ruby, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 62.5%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+hgroup, menu {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/*8******* 
+        Globals 
+
+                ***/
+
+
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+    font-size:62.5%;
+}
+
+h1, h2, h3, h4, h5,h6 {
+    font-weight:600;
+    font-size: 18px;
+    margin-right:15px;
+    margin-top:15px;
+    margin-bottom: 5px;
+    font-family: 'Rubik', sans-serif;
+}
+
+p {
+    font-size:2rem;
+    line-height: 1.4;
+}
+a{
+    color:black;
+    font-size:2rem;
+    text-decoration: none;
+}
+
+body > header{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    border-bottom: 2px dotted black;
+    height:100%;
+    width:98%;
+}
+header > nav{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+header > div.container{
+    display:flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-self: space-evenly;
+}
+header > div > img{
+    width:100%;
+}
+
+
+/* *******
+            Mid section 
+                    ****8 /*/
+
+
+div.top-content{
+    display:flex;
+    flex-direction: row;
+
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+div.top-content.about-page{
+    width:100%;
+    height:100%;
+}
+
+div.top-content > div.middle-content{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+
+div.top-content > div.middle-content{
+    width:35%;
+    height:100%;
+    border-bottom:2px dotted black;
+}
+
+
+/*******
+        Footer & bottom Section 
+                *****************************/
+
+
+div.bottom-content{
+    display:flex;
+    flex-direction: row;
+
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+
+div.text-container{
+    width:80%;
+    height:100%;
+}
+div.bottom-content > div.text-container > footer {
+   
+}
+div.bottom-content > div.text-container > footer > nav {
+    padding:2rem;
+    height:100%;
+    width:100%;
+   background-color: black;
+}
+div.bottom-content > div.text-container > footer > nav > a{
+    margin:.2rem;
+    padding:1rem;
+    font-size:2rem;
+    color:white;
+}
+
+
+img{
+    padding:.5rem;
+    margin: 2rem .1rem 2rem .1rem;
+}
+
+button{
+    padding:.6rem;
+    margin: 0rem 0rem 2rem 0rem;
+    background-color:white;
+    border-bottom-left-radius: 16% ; 
+    border-bottom-right-radius: 16% ; 
+    border-top-right-radius: 16% ; 
+    border-top-left-radius: 16% ; 
+}
+@media(max-width:890px){
+
+ div > img {
+    width:70%;
+    height: auto;
+    padding:.5rem;
+    margin: 2rem .1rem 2rem .1rem;
+}
+}
