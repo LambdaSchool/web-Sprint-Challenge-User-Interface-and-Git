@@ -1,0 +1,110 @@
+.headContainer {
+    display: flex;
+    justify-content: start;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.headContainer nav a {
+    margin: 10px 10px;
+    padding: 20px;
+    display: inline;
+    decoration: none;
+    margin-bottom: 20px;
+}
+
+.jimg {
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
+.middle-content .boxes {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 575px
+}
+
+.item1 {
+     width: 65px;
+    height: 65px;
+    margin: 20px;
+    background: teal;
+}
+
+.item2 {
+     width: 65px;
+    height: 65px;
+    margin: 20px;
+    background: gold;
+}
+
+.item3 {
+     width: 65px;
+    height: 65px;
+    margin: 20px;
+    background: cadetblue;
+}
+
+.item4 {
+     width: 65px;
+    height: 65px;
+    margin: 20px;
+    background: coral;
+}
+
+.item5 {
+     width: 65px;
+    height: 65px;
+    margin: 20px;
+    background: crimson;
+}
+
+.item6 {
+     width: 65px;
+    height: 65px;
+    margin: 20px;
+    background: forestgreen;
+}
+
+.item7 { 
+     width: 65px;
+    height: 65px;
+    margin: 20px;
+    background: darkorchid;
+}
+
+.item8 {
+     width: 65px;
+    height: 65px;
+    margin: 20px;
+    background: hotpink;
+}
+
+.item9 {
+     width: 65px;
+    height: 65px;
+    margin: 20px;
+    background: indigo;
+}
+
+.item10 {
+     width: 65px;
+    height: 65px;
+    margin: 20px;
+    background: dodgerblue;
+}
+
+
