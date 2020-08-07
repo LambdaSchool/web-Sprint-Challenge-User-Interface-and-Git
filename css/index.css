@@ -21,7 +21,8 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+    vertical-align: baseline;
+    
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -46,9 +47,27 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
 * {
-    box-sizing: border-box;
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    max-width:100%;
+  
 }
 
 html, body {
@@ -65,6 +84,32 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+/* NAV stuff begin */
+nav {
+    width:800px;
+    margin:1rem auto;
+    
+}
+a:link{    
+    color:black;
+    font-weight: bolder;
+    
+}
+nav img{
+    margin:1rem auto;
+    
+}
+.nav{
+    display:flex;
+    justify-content: space-between;
+    flex-grow:2;
+    align-items: center;
+    
+    
+}
+/* NAV stuff end */
+
+
 
 .container {
     width: 800px;
@@ -94,17 +139,16 @@ p {
     padding: 0 2%;
     margin-bottom: 0;
 }
-
+/* Here begins trouble */
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
+.middle-content .boxes {
+    
+    
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -112,6 +156,138 @@ p {
     justify-content: center;
 }
 
+
+
+
+#box1{
+    
+    width: 12.5%;
+    height: 100px;
+    background: teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#box2{
+    
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#box3{
+    
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#box4{
+    
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#box5{
+    
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#box6{
+    
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#box7{
+    
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#box8{
+    
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#box9{
+    
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#box10{
+    
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/* That was tough */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -128,6 +304,7 @@ p {
 
 footer {
     width: 100%;
+    margin:0 auto;
     background: black;
 }
 
@@ -143,4 +320,62 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* about page */
+
+.containerab{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    /* max-width:40%; dont do*/
+    justify-content:space-evenly;
+    
+    
+
+}
+.containerab h3{
+    padding-top:1rem;
+}
+.strategy{
+    display:flex;
+    flex-direction:column;
+    max-width:40%;
+    margin-top:2rem;
+    margin-bottom:1rem;
+    border-bottom:dashed 1px black;
+    padding-bottom:2rem;
+}
+.morebutton a{
+    padding:.5rem 1rem;
+    border:solid black;
+    border-radius:10%;
+    
+}
+
+.containerab p{
+    margin-bottom:1rem;
+}
+
+.aboutit{
+    width: 90%;
+    margin:0 auto;
+    display:flex;
+    flex-direction:column;
+    padding-bottom:1rem;
+    border-bottom:dashed 1px black;
+}
+.together{
+    width: 90%;
+    margin:0 auto;
+    display:flex;
+    flex-direction:column;
+    padding-bottom:1rem;
+    padding-top: 3rem;
+
+}
+
+.containerbody{
+    width:800px;
+    margin: 0 auto;
 }
