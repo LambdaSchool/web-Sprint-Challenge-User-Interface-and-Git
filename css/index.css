@@ -71,6 +71,38 @@ p {
     margin: 0 auto;
 }
 
+/*HOME PAGE CSS*/
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    margin-right: 0;
+}
+
+
+
+.nav {
+    width: 44%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 1%;
+    font-size: 14px;
+}
+
+.header-img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +144,49 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box:first-child{
+    background-color: teal;
+}
+
+.middle-content .boxes .box:nth-child(2){
+    background-color:gold;
+}
+
+.middle-content .boxes .box:nth-child(3){
+    background-color:cadetblue;
+}
+
+.middle-content .boxes .box:nth-child(4){
+    background-color: coral;
+}
+
+.middle-content .boxes .box:nth-child(5){
+    background-color: crimson;
+}
+
+.middle-content .boxes .box:nth-child(6){
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box:nth-child(7){
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box:nth-child(8){
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box:nth-child(9){
+    background-color: indigo;
+}
+
+.middle-content .boxes .box:nth-child(10){
+    background-color: dodgerblue;
+}
+
+
+
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +218,68 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*END HOME SCREEN CSS*/
+/*START ABOUT SCREEN CSS*/
+
+.container {
+    
+}
+
+.AB {
+  margin: 4% auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    width: 100%;
+}
+
+.AB div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    justify-content: left;
+    margin: 10px;
+    padding: 10px;
+    border-bottom: 1px dashed black;
+    
+    
+
+}
+
+.AB div img {
+    width: 100%;
+}
+
+.AB h3 {
+    margin-top: 13px;
+}
+
+.txt {
+    border-bottom: 1px dashed black;
+    padding-bottom: 2%;
+}
+
+.button {
+    border-radius: 10px;
+    color: black;
+    background-color: white;
+    border-color: black;
+    padding: 2%;
+    width: 40%;
+    margin-bottom: 5px;
+    margin-top: 8px;
+}
+
+.bottom-text {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.bottom-text footer {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    
 }
