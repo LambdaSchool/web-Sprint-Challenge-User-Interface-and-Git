@@ -23,6 +23,58 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
+nav{
+   display: flex;
+   justify-content: space-evenly;
+   margin-left:21%
+}
+nav a{
+    margin: 38px;
+    text-decoration: none;
+    color: black;
+    
+}
+.pic{
+    justify-content: center;
+    display: flex;
+    padding: 3%;
+}
+.middle-content .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.box:nth-child(1){
+    background: teal;
+}
+.box:nth-child(2){
+    background: gold;
+}
+.box:nth-child(3){
+    background: cadetblue;
+}  
+.box:nth-child(4){
+    background: coral;
+}
+.box:nth-child(5){
+    background: crimson;
+}
+.box:nth-child(6){
+    background: forestgreen;
+}
+.box:nth-child(7){
+    background: darkorchid;
+}
+.box:nth-child(8){
+    background: hotpink;
+}
+.box:nth-child(9){
+    background: indigo;
+}
+.box:nth-child(10){
+    background: dodgerblue;
+}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -46,11 +98,62 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+.middle-content{
+    justify-content: space-evenly;
+}
 
+
+
+.box1{
+    background-color:teal;
+}
+.box2{
+    background-color: gold;
+}
+.box3{
+    background-color: cadetblue;
+}
+.box4{
+    background-color: coral;
+}
+.box5{
+    background-color: crimson;
+}
+.box6{
+    background-color: forestgreen;
+}
+.box7{
+    background-color: darkorchid;
+}
+.box8{
+    background-color: hotpink;
+}
+.box9{
+    background-color: indigo;
+}
+.box10{
+    background-color: dodgerblue;
+}
 * {
     box-sizing: border-box;
 }
+.yes{
+    width:50%;
+}
+.one{
+    display:flex;
+    margin:3%;
+    justify-content: space-between;
+}
+br{
+    
+}
 
+.about{
+    justify-content: center;
+    display:flex;
+    padding:3%;
+}
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -64,6 +167,7 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+    padding:3% 5%;
 }
 
 .container {
