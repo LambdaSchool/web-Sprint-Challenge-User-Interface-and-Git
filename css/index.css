@@ -23,6 +23,8 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -66,6 +68,17 @@ p {
     line-height: 1.4;
 }
 
+main {
+    width: 800px;
+    margin: auto;
+
+}
+
+.column {
+    float: left;
+    width: 50%;
+    }
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -99,17 +112,49 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    
 }
 
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.middle-content .boxes .box-one {
+    background: teal;
+
+}
+.middle-content .boxes .box-two {
+    background: gold;
+
+}.middle-content .boxes .box-three {
+    background: cadetblue;
+
+}.middle-content .boxes .box-four {
+    background: coral;
+
+}.middle-content .boxes .box-five {
+    background: crimson;
+
+}.middle-content .boxes .box-six {
+    background: forestgreen;
+
+}.middle-content .boxes .box-seven {
+    background: darkorchid;
+
+}.middle-content .boxes .box-eight {
+    background: hotpink;
+
+}.middle-content .boxes .box-nine {
+    background: indigo;
+
+}.middle-content .boxes .box-ten {
+    background: dodgerblue;
+
 }
 
 .bottom-content {
@@ -144,3 +189,20 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+header nav {display: flex;
+justify-content: space-between;
+align-items: flex-end;
+padding: 3%;
+}
+ 
+.nav {
+       marker-start: auto;
+   }
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .working { padding-top: 3%;}
