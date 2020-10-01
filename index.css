@@ -104,6 +104,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
+    /*background: black;*/
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -112,16 +113,15 @@ p {
 }
 
 .one {
-    background-color: teal;
+    background: teal;
 
 }
-
 .two {
-    background-color: gold;
+    background: gold;
 }
 
 .three {
-    background-color: cadetblue;
+    background: cadetblue;
 }
 
 .four {
@@ -146,6 +146,7 @@ p {
 
 .nine {
     background-color: indigo;
+
 }
 
 .ten {
@@ -185,81 +186,27 @@ footer nav a {
 }
 
 button {
-    background-color: white;
-    border: none;
-    color: black;
-    text-align: center;
-    display: inline-block;
-    font-size: 16px;
-    padding: 30px 24px;
+    width: 100px;
+    height: 50px;
+    background: white;
+    border: white;
+    border-radius: 25px;
+    margin: 10px;
+    
 }
 
 .big {
     margin: auto;
     padding: 50px 30px 50px 80px;
     text-align: center;
-}
 
+   
+}
 
 .logo {
     margin: auto;
-    display: inline-block;
-}
-
-.ok {
-    text-align: center;
-}
-
-.cool {
-    display: inline-block;
+    padding: 100px 100px 10px 10px;
 }
 
 
-.cont {
-    width: 300px;
-    border-bottom: dashed 2px black;
-    height: 400px;
-    margin: 30px;
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.contimg {
-    width: 100%;
-}
-
-.mainok {
-    text-align: center;
-}
-
-.jumbomain {
-    margin: auto;
-    padding: 50px 30px 50px 80px;
-    text-align: center;
-}
-
-.logomain {
-    margin: auto;
-    display: inline-block;
-}
-
-.btn {
-    background-color: white;
-    border-color: black;
-    color: black;
-    text-align: center;
-    display: inline-block;
-    font-size: 16px;
-    padding: 8px 10px;
-    border-width: 1px;
-    border-style: solid;
-    border-radius: 30%; 
-    
-}
-
-.bottom-content {
-        display: flex;
-        margin: 0 2% 20px;
-        justify-content: space-around;
-}
 
