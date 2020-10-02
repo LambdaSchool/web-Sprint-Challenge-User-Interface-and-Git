@@ -18,9 +18,9 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/*border: 0;*/
 	font-size: 100%;
-	font: inherit;
+	/*font: inherit;*/
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    /* border:1px solid black; */
 }
 
 html, body {
@@ -71,6 +72,36 @@ p {
     margin: 0 auto;
 }
 
+.container .top-header {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 2%;
+    align-items: baseline;
+    margin-bottom:1%;
+    
+} /*work more here*/
+
+.top-header .nav {
+    width:100%;
+}
+.container .top-header a{
+    width:100%;
+    font-size: 14px;
+    text-decoration: none;
+    margin-left:8%;
+    margin-right:3%;
+    color:black;
+  
+    
+    
+}
+
+.header-pic {
+    width:100%;
+    margin-bottom:2%;
+
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -99,19 +130,101 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    color:white;
 }
 
-.middle-content .boxes .box {
+
+.middle-content .boxes .box-1 {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
-    color: white;
+    background:teal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box-2 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background:gold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box-3 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background:cadetblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box-4 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background:coral;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box-5 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background:crimson;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box-6 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background:forestgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box-7 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background:darkorchid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box-8 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background:hotpink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box-9 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background:indigo;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.middle-content .boxes .box-10 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background:dodgerblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -135,6 +248,7 @@ footer nav {
     width: 60%;
     display: flex;
     justify-content: space-between;
+    justify-items: center;
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
@@ -143,4 +257,126 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+
+
+/*about page*/
+
+*{
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+body {
+    width: 100%;
+}
+.header {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.header .top-header {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 2%;
+    align-items: baseline;
+    margin-bottom:1%;  
+} 
+
+.top-header .nav {
+    width:100%;
+}
+.header .top-header a{
+    width:100%;
+    font-size: 14px;
+    text-decoration: none;
+    margin-left:8%;
+    margin-right:3%;
+    color:black;
+  
+}
+div.container.about-page {
+    width:800px;
+}
+
+.about {
+    width:100%;
+    border-bottom: 1px dashed black;
+}
+
+.about p {
+    margin-bottom: 2%;
+}
+
+.info-boxes {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom:5px;
+
+}
+
+.info-boxes a {
+    text-decoration: none;
+    color:black;
+    border: 2px solid black;
+    padding: 2%;;
+    border-radius: 10px;
+    text-align:center;
+    
+}
+
+.info-boxes p {
+margin: 2% 0%;
+}
+
+.info-boxes img {
+    width: 100%;
+}
+.strategy {
+    margin-top:4%;
+    width:48%;
+    padding: 5px;
+    padding-bottom:3%;
+    border-bottom: 1px dashed black;
+}
+.how-we-work {
+    margin-top: 4%;
+    width:48%;
+    padding: 5px;
+    padding-bottom:3%;
+    border-bottom: 1px dashed black;
+}
+.places {
+    margin-top:5%;
+    padding: 5px;
+    width:48%;
+    padding-bottom:3%;
+    border-bottom: 1px dashed black;
+}
+.collaboration {
+    margin-top:5%;
+    padding: 5px;
+    width:48%;
+    padding-bottom:3%;
+    border-bottom: 1px dashed black;
+}
+
+.lets-work{
+    
+    width:50%;
+}
+
+.lets-work img{
+    padding: 5px;
+    width:90%;
+} 
+
+.bottom-text {
+    width:100%;
+    padding:10px;
+margin-top:4%;
 }
