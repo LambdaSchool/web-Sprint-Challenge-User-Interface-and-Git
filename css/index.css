@@ -3,60 +3,154 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 * {
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
@@ -82,7 +176,7 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -143,4 +237,137 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/* Above here is from source */
+
+
+/* My changes start below */
+
+a {
+    vertical-align: baseline;
+    color: black;
+    padding: .5em 1.5em;
+    margin-top: 1em;
+    text-decoration: none;
+    display: inline-block;
+}
+
+footer nav {
+    padding: 0 0 1em 0;
+}
+
+.header-nav {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: text-top;
+}
+
+.jumbo-image {
+    display: block;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.boxes div.box:nth-child(1) {
+    background-color: teal;
+}
+
+.boxes div.box:nth-child(2) {
+    background-color: gold;
+}
+
+.boxes div.box:nth-child(3) {
+    background-color: cadetblue;
+}
+
+.boxes div.box:nth-child(4) {
+    background-color: coral;
+}
+
+.boxes div.box:nth-child(5) {
+    background-color: crimson;
+}
+
+.boxes div.box:nth-child(6) {
+    background-color: forestgreen;
+}
+
+.boxes div.box:nth-child(7) {
+    background-color: darkorchid;
+}
+
+.boxes div.box:nth-child(8) {
+    background-color: hotpink;
+}
+
+.boxes div.box:nth-child(9) {
+    background-color: indigo;
+}
+
+.boxes div.box:nth-child(10) {
+    background-color: dodgerblue;
+}
+
+.about-top-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-top-content .about-text-container {
+    margin: 20px;
+}
+
+.about-middle-content {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+}
+
+.about-middle-content div {
+    border-bottom: 1px dashed black;
+    padding-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.about-middle-content div img {
+    margin-bottom: 1em;
+}
+
+.about-bottom-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.about-bottom-content .about-text-container {
+    margin: 20px;
+}
+
+.about-content-text {
+    max-width: 90%;
+}
+
+
+/* Used flex on button to vertically align text */
+
+.learn-button {
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 2em;
+    padding: 1.2em 1.5em;
+    display: inline-flex;
+    align-items: center;
+    margin-top: 1em;
 }
