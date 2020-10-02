@@ -136,11 +136,113 @@ footer nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
+    padding: 18px 2%;
     font-size: 14px;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+}
+nav  {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    height: 60px;
+    width: 90%;
+}
+.headLogo {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+}
+nav a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.top-content img {
+    margin-top: 20px;
+    margin-bottom: 18px;
+}
+.middle-content .boxes .box:nth-of-type(1) {
+    background-color: teal;
+}
+.middle-content .boxes .box:nth-of-type(2) {
+    background-color: gold;
+}
+.middle-content .boxes .box:nth-of-type(3) {
+    background-color: cadetblue;
+}
+.middle-content .boxes .box:nth-of-type(4) {
+    background-color: coral;
+}
+.middle-content .boxes .box:nth-of-type(5) {
+    background-color: crimson;
+}
+.middle-content .boxes .box:nth-of-type(6) {
+    background-color: forestgreen;
+}
+.middle-content .boxes .box:nth-of-type(7) {
+    background-color: darkorchid;
+}
+.middle-content .boxes .box:nth-of-type(8) {
+    background-color: hotpink;
+}
+.middle-content .boxes .box:nth-of-type(9) {
+    background-color: indigo;
+}
+.middle-content .boxes .box:nth-of-type(10) {
+    background-color: dodgerblue;
+}
+.container1, .about-page{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    margin: 2%;
+}
+.container1 p {
+    width:90%;
+    border-bottom: 1px dashed black;
+    text-align: left;
+}
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.plan, .working, .office, .meeting {
+    width: 48%;
+    margin-top: 30px;
+    margin-bottom:30px;
+    align-content: center;
+    padding-left: 30px;
+}
+.plan p, .working p, .office p, .meeting p {
+    width: 48%;
+}
+.plan button, .working button, .office button, .meeting button {
+    border-radius: 5px;
+    margin-top: 15px;
+    width: 16%;
+    height: 30px;
+    background-color: white;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
 }
