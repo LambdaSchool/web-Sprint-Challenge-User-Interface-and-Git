@@ -29,7 +29,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    box-sizing: border-box;
 }
 ol, ul {
 	list-style: none;
@@ -69,6 +70,54 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+/* ------------- START HERE ------------- */
+
+.header-section {
+    display: flex;
+    flex-flow: column wrap;
+    align-self: center;
+}
+
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    padding-bottom: .5em;
+    padding-top: 1.5em;
+    width: 800px;
+    align-self: center;
+    justify-content: space-between;
+}
+
+.lambda-logo {
+    height: 45px;
+}
+
+.header-nav {
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 14px;
+    width: 75%;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-content: center;
+    padding: 2em;
+}
+
+.header-nav a {
+    text-decoration: none;
+
+    color: black;
+}
+
+.header-banner {
+    padding: 1.5em 0em;
+}
+
+.about-header-banner {
+    align-self: center;
+
 }
 
 .top-content {
@@ -143,4 +192,84 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+/* 
+ABOUT PAGE CSS STARTS HERE */
+
+.about-section {
+    display: flex;
+    flex-flow: column wrap;
+    border-bottom: dotted black 1px;
+    height: 7em;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.about-section h2 {
+    align-self: flex-start;
+}
+
+.learn-more-button {
+    background-color: white;
+    width: 100px;
+    border-radius: 7px;
+    height: 30px;
+    border: solid black 2px;
+    margin-bottom: 10px;
+}
+
+.container .strategy-how-page {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.strategy-section {
+    display: flex;
+    flex-flow: column wrap;
+    width: 45%;
+    border-bottom: dotted black 1px;
+    padding: 5px;
+    margin: 15px;
+}
+
+.how-section {
+    display: flex;
+    flex-flow: column wrap;
+    width: 45%;
+    border-bottom: dotted black 1px;
+    padding: 5px;
+    margin: 15px;
+}
+
+.container .places-colab-page {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.places-section {
+    display: flex;
+    flex-flow: column wrap;
+    width: 45%;
+    border-bottom: dotted black 1px;
+    padding: 5px;
+    margin: 15px;
+}
+
+.colab-section {
+    display: flex;
+    flex-flow: column wrap;
+    width: 45%;
+    border-bottom: dotted black 1px;
+    padding: 5px;
+    margin: 15px;
+}
+
+.together-section {
+    padding: 10px;
+    margin: 10px;   
+}
+
+.section-image {
+    margin-bottom: 10px;
 }
