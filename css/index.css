@@ -71,6 +71,24 @@ p {
     margin: 0 auto;
 }
 
+.first {
+    padding: 10px 0;
+    
+    
+}
+
+.first p {
+    border-bottom: dashed black;
+    padding-bottom: 20px;
+    
+}
+
+.first h2 {
+    padding: 20px 0;
+}
+
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -144,3 +162,107 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+header {
+    padding: 40px 0;
+}
+
+header nav {
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-grow: 1;
+
+
+}
+
+.stuff {
+    display:flex;
+    margin-bottom: 32px;
+    font-family: 'Rubik', sans-serif;
+}
+
+nav a {
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    flex-grow: 1;
+    align-self: flex-end;
+}
+
+.Lambda {
+    padding: 10px;
+}
+   
+.strats {
+    display: flex;
+    flex-direction: row;
+
+}
+.strats h3 {
+    font-weight: bold;
+    padding: 5px;
+}
+
+.strats .item {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    text-align: justify;
+    padding-bottom: 10px;
+    border-bottom: black dashed;
+    margin: 1%;
+    
+}
+
+.item p {
+    padding: 10px;
+}
+
+.item img {
+    padding: 30px 10px;
+
+    
+}
+
+button.learn-more {
+    border: black 2px solid;
+    border-radius: 10px;
+    width: 30%;
+    height: 40px;
+    background-color: white;
+    font-size: 16px;
+    margin: 2%;
+}
+
+.collab  {
+    display: flex;
+    flex-direction: row;
+}
+
+.collab h3 {
+    font-weight: bold;
+    padding: 5px;
+}
+
+.collab .item {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    text-align: justify;
+    padding-bottom: 10px;
+    border-bottom: black dashed;
+    margin: 1%;
+    
+}
+
+.finish {
+    width: 800px;
+    margin: 0 auto;
+    font-weight: bold;
+    padding: 15px 0;
+}
+
