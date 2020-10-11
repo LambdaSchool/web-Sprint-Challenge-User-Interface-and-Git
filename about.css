@@ -1,0 +1,216 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	/* font: inherit; */
+    vertical-align: baseline;
+    text-decoration: none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+a { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:focus { text-decoration: none; }
+a:hover, a:active { text-decoration: none; }
+
+/* CSS START */
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+/* .container-about-page > .section{
+    margin: 3% 0 3% 0;
+} */
+
+.nav {
+    display:flex;
+    justify-content: space-between; 
+    margin: 2% 0 3% 0
+}
+    
+.nav > a{
+    margin-top: 3%;
+}
+    
+#headerImg {
+    margin-bottom: 3%;
+}
+
+.aboutpage {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    border-bottom: dashed 1px;
+    padding-bottom: 1%;
+    margin-bottom: 3.5%;
+}
+
+.container-about-page > .aboutpage > section{
+    margin: 0 0 2% 2%;
+}
+
+.aboutpage > p {
+    margin: 0 0 2% 2%;
+}
+
+.imgboxes{
+    display: flex;
+    
+    
+}
+
+.imgboxes2{
+    display: flex;
+    margin-top: 5%;
+}
+
+/* STRATEGY BOX */
+
+.box1 {
+   width: 370px;
+   margin:0 0 0 2%;
+}
+
+.subBox1 > section{
+    margin: 2% 0 2% 0;
+}
+
+.subBox1 > p{
+    margin: 2% 0 2% 0;
+    
+}
+
+.subBox1 {
+    border-bottom: dashed 1px;
+}
+
+/* LEARN MORE BUTTONS */
+
+button{
+    margin: 2% 0 6% 0;
+    border-radius: 6px;
+    padding: 2% 3%;
+    
+}
+
+/* HOW WE WORK */
+
+.subBox2 > section{
+    margin: 2% 0 2% 0; 
+}
+
+.subBox2 > p{
+    margin: 2% 0 2% 0;
+}
+
+.box2 {
+    width: 370px;
+    margin:0 0 0 3%;
+}
+
+.subBox2 {
+    border-bottom: dashed 1px;
+}
+
+/* PLACES WE WORK */
+
+.box3 {
+    width: 370px;
+    margin:0 0 0 2%;
+}
+     
+.subBox3 > section{
+    margin: 2% 0 2% 0;
+}
+     
+.subBox3 > p{
+    margin: 2% 0 2% 0;
+}
+     
+.subBox3 {
+    border-bottom: dashed 1px;
+}
+
+/*  COLLABORATION  */
+
+.subBox4 > section{
+    margin: 2% 0 2% 0; 
+}
+     
+.subBox4 > p{
+    margin: 2% 0 2% 0;
+}
+     
+.box4 {
+    width: 370px;
+    margin:0 0 0 3%;
+}
+     
+.subBox4 {
+    border-bottom: dashed 1px;
+}
+
+/* FOOOOOOOOOOTER */
+
+.footerAbout {
+    margin-top: 7%;
+}
+
+.footerAbout > p{
+    margin: 2% 0 5% 0
+}
+
+footer > nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color:white;
+    padding: 2% 45% 2% 2%;
+}
