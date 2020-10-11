@@ -54,6 +54,7 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    font-weight: 500;
 }
 
 h1, h2, h3, h4, h5 {
@@ -69,6 +70,43 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+header {
+    width: 100%;
+}
+
+.header-container {
+    margin-bottom: 35px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+
+.header-container img {
+    flex: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.header-container nav {
+    margin-top: 26px;
+    /* flex: 1; */
+    width: 380%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.header-nav a {
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.zoom {
+    margin-bottom: 15px;;
 }
 
 .top-content {
@@ -104,12 +142,52 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box1 {
+    background: teal;
+}
+
+.box2 {
+    background: gold;
+}
+
+.box3 {
+    background: cadetblue;
+}
+
+.box4 {
+    background: coral;
+}
+
+.box5 {
+    background: crimson;
+}
+
+.box6 {
+    background: forestgreen;
+}
+
+.box7 {
+    background: darkorchid;
+}
+
+.box8 {
+    background: hotpink;
+}
+
+.box9 {
+    background: indigo;
+}
+
+.box10 {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -142,5 +220,74 @@ footer nav {
 
 footer nav a {
     color: white;
+    /* font-weight: 400; */
     text-decoration: none;
+}
+
+/* About */
+
+.top-content1 {
+    padding-bottom: 20px;
+    /* margin-bottom: 20px; */
+    padding-left: 10px;
+    border-bottom: 1px dashed black;
+}
+
+.top-content2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 25px;
+}
+
+.top-content2 .text-container {
+    width: 48%;
+    /* padding: 0 1%; */
+    padding: 25px 20px;
+}
+
+.text-container img {
+    margin-bottom: 10px;
+}
+
+.about {
+    width: 100%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+}
+
+.about h2 {
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.about1 {
+    width: 105%;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+button {
+    font-size: 16px;
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 8px 20px;
+    margin-top: 15px;
+}
+
+.work-together {
+    width: 100%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+}
+
+.work-together h2 {
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.bottom-content1 {
+    padding-bottom: 20px;
+    padding-left: 10px;
 }
