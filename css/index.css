@@ -3,27 +3,56 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    max-width:100%; 
 }
+
 /* HTML5 display-role reset for older browsers */
+
+header{
+    display:flex;
+    background-color:white;
+    height:60vh;
+    opacity:0.7;
+}
+.oneline h1{
+    font-size:3rem;
+    font-weight:bold;
+    color:black;
+}
+.oneline .h1:hover{
+    color:yellow;
+}
+
+.oneline{
+    display:flex;
+    justify-content: space-evenly;
+    padding:4% 0;
+    margin:5%;
+}
+
+.oneline nav{
+    justify-content:space-around;
+    font-size:2rem;
+
+}
+
+.hero-image{
+    display:flex;
+    justify-content:center;
+    height:10vh; 
+    margin:5%;
+
+}
+
+.container, .container a{
+  padding:4% 0;
+  margin-top:2%;
+}
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -37,6 +66,7 @@ ol, ul {
 blockquote, q {
 	quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
@@ -66,7 +96,7 @@ p {
     line-height: 1.4;
 }
 
-.container {
+.container, .container a{
     width: 800px;
     margin: 0 auto;
 }
@@ -95,21 +125,49 @@ p {
     margin-bottom: 0;
 }
 
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.middle-content .boxes .box{
+    display: flex;  
+    flex-wrap:wrap;
+    justify-content:center;
 }
 
-.middle-content .boxes .box {
+.box .boxone, .boxtwo, .boxthree,.boxfour,.boxfive, .boxsix, .boxseven,.boxeight,.boxnine,.boxten{
     width: 12.5%;
-    height: 100px;
-    background: black;
+    height: 15vh;
     margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items:center;
+    
+}
+
+.boxone{
+    background-color:teal;
+}
+.boxtwo{
+    background-color:gold;
+}
+.boxthree{
+    background-color:cadetblue;
+}
+.boxfour{
+    background-color:coral;
+}
+.boxfive{
+    background-color:crimson;
+}
+.boxsix{
+    background-color:forestgreen;
+}
+.boxseven{
+    background-color:darkorchid;
+}
+.boxeight{
+    background-color:hotpink;
+}
+.boxnine{
+    background-color:indigo;
+}
+.boxten{
+    background-color:dodgerblue;
 }
 
 .bottom-content {
@@ -136,11 +194,48 @@ footer nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
+    padding: 5px 2%;
     font-size: 14px;
+    margin: 0% 2%;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+}
+/*about page specific styles*/
+
+.all lines{
+    border: 1 px dashed #000;
+}
+
+.container a{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 2% 20px;
+}
+
+.aabox{
+    display: flex;  
+    flex-wrap:wrap;
+    justify-content:center;
+    margin: 2% 2%;
+}
+
+.abox{
+    align-items:right;
+    height:55vh;
+    width:50%;
+    padding:4% 0;
+
+}
+
+.abox button{
+    padding: 2% 1%;
+}
+
+.final text {
+    align-content:right;
+    margin: 2% 2% 20px;
 }
