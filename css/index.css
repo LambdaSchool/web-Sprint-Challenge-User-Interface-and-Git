@@ -64,6 +64,7 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+    font-size: 16px;
 }
 
 .container {
@@ -104,7 +105,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +144,89 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.nav-flex {
+    display: flex;
+    margin: 20px 0 35px 0;
+    justify-content: space-between;
+}
+.nav-flex a {
+    color: black;
+    text-decoration: none;
+    text-emphasis: 500;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-right: 40px;
+}
+.top-image {
+    padding-bottom: 25px;
+}
+
+.middle-content .boxes .box + div {
+    background: gold;
+}
+.middle-content .boxes .box + div +div {
+    background: cadetblue;
+}
+.middle-content .boxes .box + div +div +div {
+    background: coral;
+}
+.middle-content .boxes .box + div +div +div +div{
+    background: crimson;
+}
+.middle-content .boxes .box + div +div +div +div +div {
+    background: forestgreen;
+}
+.middle-content .boxes .box + div +div +div +div +div + div{
+    background: darkorchid;
+}
+.middle-content .boxes .box + div +div +div +div +div +div +div{
+    background: hotpink;
+}
+.middle-content .boxes .box + div +div +div +div +div +div +div +div{
+    background: indigo;
+}
+.middle-content .boxes .box + div +div +div +div +div +div +div +div +div{
+    background: dodgerblue;
+}
+
+/* Starting of styling for about page */
+
+.about-top-content {
+    margin-bottom: 20px;
+    padding: 0 10px 20px 10px;
+    border-bottom: 1px dashed black;
+
+}.mid-top-row-flex-container {
+    display: flex;    
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    
+}
+.mid-bottom-row-flex-container {
+    display: flex; 
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    
+}
+.about-bottom-content {
+    padding: 20px 10px 30px 10px;
+}
+.image-padding {
+    padding-bottom: 8px;
+}
+.learn-more-link {
+    text-decoration: none;
+    margin-top: 5px;
+    padding: 6px 15px 6px 15px;   
+    border: solid black 2px;
+    border-radius: 9px;
+    color: black;
+    font-size: 16px;
+}
+.bottom-border-styling {
+    padding-bottom: 25px;
+    border-bottom: 1px dashed black;
+    margin-right: 30px;
 }
