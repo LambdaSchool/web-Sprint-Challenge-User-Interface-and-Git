@@ -1,0 +1,32 @@
+.containers {
+  width: 1600px;
+  margin-bottom: 35px;
+}
+
+.logo {
+  margin-left: 270px;
+  float: left;
+  margin-top: 10px;
+}
+
+.nav {
+  float: right;
+  width: 520px;
+  display: flex;
+  margin-top: 38px;
+  justify-content: space-between;
+  margin-right: 600px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  padding-bottom: 20px;
+}
