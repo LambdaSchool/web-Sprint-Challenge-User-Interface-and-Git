@@ -46,14 +46,40 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* RESET */
+
+
 
 * {
     box-sizing: border-box;
+    transition: 0.5s;
 }
 
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    padding: 20px;
+    padding-left: 0px;
+}
+
+nav {
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.jumbo {
+    margin: 20px 0px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -71,6 +97,10 @@ p {
     margin: 0 auto;
 }
 
+.about-page {
+
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -85,9 +115,47 @@ p {
     padding-bottom: 20px;  
 }
 
+.about-page .top-content .text-container {
+    width: 100%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.about-page .middle-content {
+    padding: 0 1%;
+    padding-bottom: 20px; 
+    display: flex; 
+    flex-wrap: wrap;
+    border: none;
+}
+
+.about-page .middle-content .boxes {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-page .middle-content .boxes h2 {
+    padding-left: 0;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.about-page .middle-content .boxes a {
+    width: fit-content;
+    margin-top: 15px;
+    text-decoration: none;
+    color: black;
+    padding: 7px 15px;
+    border: 2px solid black;
+    border-radius: 10px;
 }
 
 .middle-content h2 {
@@ -101,11 +169,101 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1 {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
+    background-color: teal;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background-color: gold;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background-color: cadetblue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background-color: coral;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background-color: crimson;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background-color: forestgreen;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background-color: darkorchid;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background-color: hotpink;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background-color: indigo;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background-color: dodgerblue;
     color: white;
     display: flex;
     align-items: center;
@@ -116,6 +274,10 @@ p {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+}
+
+.about-page .bottom-content {
+    padding-bottom: 20px;
 }
 
 .bottom-content .text-container {
