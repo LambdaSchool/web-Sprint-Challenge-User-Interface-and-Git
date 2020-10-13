@@ -66,9 +66,35 @@ p {
     line-height: 1.4;
 }
 
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 800px;
+    padding: 20px 0 50px;
+    margin: 0 auto;
+}
+
+.header-container img {
+    display: flex;
+    align-items: flex-start;
+}
+
+.header-container a {
+    padding: 10px 30px 10px;
+    margin: 0 auto;
+    text-decoration: none;
+    color: black;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+.container img {
+    padding: 0 0 20px 0;
 }
 
 .top-content {
@@ -112,6 +138,37 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box:nth-child(1) {
+    background: teal;
+}
+.middle-content .boxes .box:nth-child(2) {
+    background: gold;
+}
+.middle-content .boxes .box:nth-child(3) {
+    background: cadetblue;
+}
+.middle-content .boxes .box:nth-child(4) {
+    background: coral;
+}
+.middle-content .boxes .box:nth-child(5) {
+    background: crimson;
+}
+.middle-content .boxes .box:nth-child(6) {
+    background: forestgreen;
+}
+.middle-content .boxes .box:nth-child(7) {
+    background: darkorchid;
+}
+.middle-content .boxes .box:nth-child(8) {
+    background: hotpink;
+}
+.middle-content .boxes .box:nth-child(9) {
+    background: indigo;
+}
+.middle-content .boxes .box:nth-child(10) {
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +200,87 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* CSS for page-specific styling on About page */
+
+.about-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.row-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about-row1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.about-row2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#about-head-content {
+    border-bottom: 2px dotted  black;
+    padding: 0 0 15px 15px;
+    margin: 0 0 20px 0;
+}
+
+.about-content-1 {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px dotted black;
+    padding: 0 0 20px 0;
+    width: calc(50% - 1.2em);
+
+}
+
+.about-content-2 {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px dotted black;
+    padding: 0 0 20px 0;
+    width: calc(50% - 1.2em);
+
+}
+
+.about-content-3 {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px dotted black;
+    padding: 50px 0 20px 0;
+    width: calc(50% - 1.2em);
+
+}
+
+.about-content-4 {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px dotted black;
+    padding: 50px 0 20px 0;
+    width: calc(50% - 1.2em);
+
+}
+
+button {
+    font-size: 0.9em;
+    border-radius: 8px;
+    background: white;
+    border: 2px solid black;
+    height: 30px;
+    width: 100px;
+    margin: 20px auto 0 0;
+}
+
+.footer-section {
+    padding: 50px 10px 30px 10px;
 }
