@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -48,7 +48,28 @@ table {
 }
 
 * {
-    box-sizing: border-box;
+    box-sizing: border-box;    
+}
+
+.header {
+    display:flex;
+    justify-content:center;
+    justify-content: space-evenly;
+    padding: 20px 50px;    
+}
+
+.jumbo {
+    
+    background-size: cover;
+    display:flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 20px 100px;         
+}
+
+.sectionAboutA{
+    border-bottom: 1px dashed black;
+    padding: 5px;
 }
 
 html, body {
@@ -143,4 +164,48 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.sectionAboutB {
+    display: flex;
+    }
+
+.sectionAboutC {
+    display: flex;
+}
+
+.sectionAbout1 {
+    display:flex;
+    flex-direction: column;
+    border-bottom: 1px dashed black;
+    margin: 10px;
+}
+
+.sectionAbout2 {
+    display:flex;
+    flex-direction: column;
+    border-bottom: 1px dashed black;
+    margin: 10px;
+}
+
+.sectionAbout3 {
+    display:flex;
+    flex-direction: column;
+    border-bottom: 1px dashed black;
+    margin: 10px;
+}
+
+.sectionAbout4 {
+    display:flex;
+    flex-direction: column;
+    border-bottom: 1px dashed black;
+    margin: 10px;
+}
+
+.learnMore {
+    text-align: left;
+    border: solid 2px black;
+    border-radius: 10%;
+    padding: 5px;
+    margin: 5px;
 }
