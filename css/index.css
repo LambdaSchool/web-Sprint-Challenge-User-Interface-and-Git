@@ -144,3 +144,112 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+/* Header Style*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    align-items:baseline;
+}
+
+header nav{
+    display:flex;
+    width:75%;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+header nav a{
+    text-decoration: none;
+    color: black;
+}
+.topImg{
+    margin-bottom:5%
+}
+
+/* Box colors*/
+
+.middle-content .boxes .box1{
+    background-color: teal;
+}
+.middle-content .boxes .box2{
+    background-color: gold;
+}
+.middle-content .boxes .box3{
+    background-color: cadetblue;
+}
+.middle-content .boxes .box4{
+    background-color:coral;
+}
+.middle-content .boxes .box5{
+    background-color: crimson;
+}
+.middle-content .boxes .box6{
+    background-color:forestgreen;
+}
+.middle-content .boxes .box7{
+    background-color: darkorchid;
+}
+.middle-content .boxes .box8{
+    background-color: hotpink;
+}
+.middle-content .boxes .box9{
+    background-color:indigo;
+}
+.middle-content .boxes .box10{
+    background-color: dodgerblue;
+}
+
+/*about page styles*/
+.topImg{
+    margin-top: 20px;
+}
+.topAbout{
+    border-bottom: 1px dashed black;
+}
+
+.topAbout .textBox{
+    margin-top: 20px;
+    padding-bottom:20px;
+}
+
+.midAbout{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    padding-top: 20px;
+    }
+.botAbout{
+    margin: 30px 0;
+}
+button{
+    background-color: white;
+    border-radius: 10px;
+    align-self: flex-start;
+    height:35px;
+    width:100px;
+    margin-bottom: 4%;
+}
+
+
+ .about-page{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+}
+
+
+.midAbout .box{
+    border-bottom: 1px dashed black;
+    width:40%;
+    margin-bottom: 5%;
+    justify-content: space-around;
+
+}
+
+.midAbout .box p{
+    margin:4%;
+}
+
