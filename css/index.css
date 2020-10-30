@@ -46,15 +46,17 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* Universal styles*/
 
-* {
-    box-sizing: border-box;
+*{  box-sizing: border-box;
+    max-width:100%;
+    border: 5px solid black; /*is there something blocking this line of code, i couldn't apply this border to see whats going on the page, you'll see more copies applied to diff elements*/
 }
 
 html, body {
     height: 100%;
-    font-family: 'Roboto', sans-serif;
-}
+    font-family: 'Roboto', sans-serif;    
+}    
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
@@ -65,6 +67,52 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+
+/* Header/ Navbar Contents Styles */
+header{
+    width:100vw;
+    height:40vh;
+    border: 2 px solid red;
+}
+.headerContainer{
+    width: 90vw;
+    height: auto;
+    display:inline-block;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin:0% auto;
+    padding:2% 2% 2% 2%;
+    border: 2px solid black;
+
+}
+
+.headerNav{
+    display:flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+    
+}
+
+.headerNav a{
+    display: inline-flex;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    border:1px solid black; 
+    /* really is genius to highlight my working area / i know my nav is offset but i just ran outta time. its a fix in the headerContainer but ugh*/
+}
+/* thought i needed this as bg to header
+.bg-header-img{
+    background-image:url("img\jumbo.jpg");
+}
+*/
+
+/* top content styles */
 
 .container {
     width: 800px;
@@ -84,6 +132,8 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+/* Middle Content Styles/ BOXES */
 
 .middle-content {
     margin-bottom: 20px;
@@ -112,6 +162,108 @@ p {
     justify-content: center;
 }
 
+/* i know whats below is incorrect, there's a mini wall of text for you further below*/
+.b1{
+    background-color: teal;
+}
+.b2{
+    background-color: gold;
+}
+.b3{
+    background-color: cadetblue;
+}
+.b4{
+    background-color: coral;
+}
+.b5{
+    background-color: crimson;
+}
+.b6{
+    background-color: forestgreen;
+}
+.b7{
+    background-color: darkorchid;
+}
+.b8{
+    background-color: hotpink;
+}
+.b9{
+    background-color: indigo;
+}
+.b10{
+    background-color: dodgerblue;
+}
+/*this is a bit fustrating, I get the gist of whatever element you change on the parent,in this case boxes, it trickles down to the child. 
+i'm stumped on when all the child are on the same plane of relation so i made another sub class to modify them but nope. 
+
+I was looking over this specific parent/child tree from a classwork yesterday but its not clicking for me on what my next step is. b/c the each div is actually inside of each other (like a waterfall) i messed around with this structure but messed up the current code.
+
+##This is a reference guide!## 
+
+<div class="parent">
+  <!-- red -->
+  <p>Jane</p>
+  
+  <div class="child">
+    <!-- blue -->
+    <p>Jim</p>
+    
+    <div class="grandchild">
+      <!-- green -->
+      <p>Aaron</p>
+      
+      <div class="greatgrandchild">
+        <!-- pink -->
+        <p>Victoria</p>
+      </div>
+      
+      <div class="greatgrandchild greatgrandchild2">
+         <!-- purple -->
+         <p>Devin</p>
+      </div><!-- grandchild2 -->
+      
+    </div><!-- grandchild -->
+    
+  </div><!-- child -->
+  
+  <div class="child child2">
+    <!-- coral -->
+    <p>Susan</p>
+    
+    <div class="grandchild">
+      <!-- aqua -->
+      <p>George</p>
+      
+      <div class="greatgrandchild">
+        <!-- rosybrown -->
+        <p>Julie</p>
+        
+      </div>
+      
+    </div>
+    
+    <div class="grandchild grandchild2">
+      <!-- sienna -->
+      <p>Nancy</p>
+      
+      <div class="greatgrandchild">
+        <!-- tomato -->
+        <p>Bob</p>
+      </div>
+      
+    </div><!-- grandchild -->
+    
+  </div>
+  
+</div><!-- parent -->
+
+
+##You are now leaving the reference notes## */
+
+
+
+/* bottom content styles */
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,6 +277,8 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/* footer content styles */
 
 footer {
     width: 100%;
