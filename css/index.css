@@ -4,7 +4,7 @@
 */
 
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+h1, h3, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -13,42 +13,20 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
+figure, figcaption, footer, hgroup, 
+menu, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
+	/* margin: 0; */
 	padding: 0;
-	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
 
 * {
     box-sizing: border-box;
+    max-width: 100%;
+    /* border: 1px steelblue solid;  */
 }
 
 html, body {
@@ -91,7 +69,7 @@ p {
 }
 
 .middle-content h2 {
-    padding: 0 2%;
+    /* padding: 0 2%; */
     margin-bottom: 0;
 }
 
@@ -104,7 +82,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +121,96 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* =============BOX COLOR HTML PAGE============= */
+.one {
+    background-color: teal;
+}
+.two {
+    background-color: gold; 
+}
+.three {
+    background-color: cadetblue;
+}
+.four {
+    background-color: coral;
+}
+.five {
+    background-color: crimson;
+}
+.six {
+    background-color: forestgreen;
+}
+.seven {
+    background-color: darkorchid;
+}
+.eight {
+    background-color: hotpink;
+}
+.nine {
+    background-color: indigo;
+}
+.ten {
+    background-color: dodgerblue;
+}
+/* ===================HEADER AREA================ */
+
+header nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    width:65%;
+    /* border: 1px solid blue; */
+}
+
+header nav .top-right a{
+    text-decoration: none;
+    flex-wrap: none;
+}
+
+nav .header-top {
+    display: flex; 
+    align-items: flex-end;
+    justify-content: space-between;
+    border: 1px green dashed; 
+    width: 87%;
+
+}
+
+nav .header-top .top-left {
+border: 1px green solid; 
+
+}
+
+.header-bottom {
+border: 1px red solid; 
+}
+
+/* ABOUT PAGE CSS */
+
+.about-section {
+    margin: 0 auto; 
+}
+/* ABOUT SECTION */
+
+.about-boxes {
+ display: flex; 
+ flex-wrap: wrap; 
+ max-width: 100%;
+ justify-content: space-evenly;
+}
+
+.about-box {
+    width: 50%;
+}
+
+/* BUTTONS */
+h4 {
+    border: 2px solid black; 
+    display: inline-block;
+    font-size: 1em;
+    padding: 2% 4%;
+    border-radius: 10%; 
 }
