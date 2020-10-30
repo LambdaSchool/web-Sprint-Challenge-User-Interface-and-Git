@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -48,13 +48,51 @@ table {
 }
 
 * {
+    font-size: 62.5%;
     box-sizing: border-box;
+    /* border: 1px solid red;   My tool for sizing */
 }
 
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
+
+/* Added code */
+
+header{
+  margin-bottom: 2%;
+}
+.top-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.5%;
+    margin-top: 0.8%;
+    width: 100%;
+}
+.lambda-logo{
+    margin-left: 9%;
+    margin-bottom: 0.5%;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-evenly;
+    width:33%;
+    margin-right: 9%;
+}
+header nav a{
+    text-decoration: none;
+    color:black;
+}
+
+.header-img{
+    display: flex;
+    margin: 0 auto
+}
+
+/* Added code */
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
@@ -143,4 +181,65 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* Home page box colors */
+
+#box1{background-color: teal;}
+
+#box2{background-color: gold;}
+
+#box3{background-color:cadetblue ;}
+
+#box4{background-color:coral ;}
+
+#box5{background-color: crimson ;}
+
+#box6{background-color: forestgreen;}
+
+#box7{background-color:darkorchid ;}
+
+#box8{background-color: hotpink ;}
+
+#box9{background-color: indigo;}
+
+#box10{background-color: dodgerblue ;}
+
+/* Home page box colors */
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: flex-start;
+}
+
+.about-div{
+    width:46%;
+    margin:6% 2%;
+    border-bottom:2px dotted black;
+
+}
+
+/* Lets work together css */
+
+.lets{
+    margin-bottom:4%;
+    margin-left: 1%;
+}
+/* Lets work together css */
+
+.button{
+    font-size: 0.8rem;
+    padding: 2% 8%;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 6%;
+    margin-top: 4%;
+    background-color: white;
+}
+
+.about-top{
+    border-bottom:2px dotted black;
+    padding-bottom:2%;
 }
