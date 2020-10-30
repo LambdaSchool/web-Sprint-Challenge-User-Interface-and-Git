@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	border: 2px solid gray;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -104,7 +104,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -141,6 +140,120 @@ footer nav {
 }
 
 footer nav a {
+    display: flex;
     color: white;
     text-decoration: none;
+    align-items: center;
 }
+
+.box1 {
+    background-color: teal;
+}
+
+.box2 {
+    background-color: gold;
+}
+
+.box3 {
+    background-color: cadetblue;
+}
+
+.box4 {
+    background-color: coral;
+}
+
+.box5 {
+    background-color: crimson;
+}
+
+.box6 {
+    background-color: forestgreen;
+}
+
+.box7 {
+    background-color: darkorchid;
+}
+
+.box8 {
+    background-color: hotpink;
+}
+
+.box9 {
+    background-color: indigo;
+}
+
+.box10 {
+    background-color: dodgerblue;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.aboutHeader {
+    display: flex;
+    justify-content: center;
+}
+
+.corporateImgs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 60%;
+}
+
+
+
+.corporateContainer1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.corporateContainer2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.corporateImg1 {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.corporateImg2 {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.corporateImg3 {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.corporateImg4 {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+button {
+    width: 100px;
+    text-align: center;
+    padding: 2% 0;
+    border-radius: 10px;
+    border: 3px solid black;
+    transition: 2s;
+}
+
+
+
+
