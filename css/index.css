@@ -144,3 +144,106 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* styles */
+.headerNav {
+    display: flex;
+    margin-top: 5%;
+}
+
+.headerNav nav {
+    display:flex;
+    align-items: flex-end; 
+}
+
+.headerNav nav a {
+    margin: 0 16%;
+    color:#232323;
+    text-decoration: none;
+}
+
+.imgLogo {
+    margin: 5% 0;
+}
+
+.boxes .box.box1 {
+    background-color:teal;
+}
+.boxes .box.box2 {
+    background-color:gold;
+}
+
+.boxes .box.box3 {
+    background-color:cadetblue;
+}
+
+.boxes .box.box4 {
+    background-color:coral;
+}
+
+.boxes .box.box5 {
+    background-color:crimson;
+}
+
+.boxes .box.box6 {
+    background-color:forestgreen;
+}
+
+.boxes .box.box7 {
+    background-color:darkorchid;
+}
+
+.boxes .box.box8 {
+    background-color:hotpink;
+}
+
+.boxes .box.box9 {
+    background-color:indigo;
+}
+
+.boxes .box.box10 {
+    background-color:dodgerblue;
+}
+
+/* about */
+.jumbo-about {
+    margin: 5% 0;
+}
+
+.top {
+    padding: 2%;
+    margin: 0 2%;
+}
+
+.middle {
+    display: flex;
+    border-top: 2px dotted #232323;
+}
+
+.middle-top{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.middletop-content {
+    display: flex;
+    flex-direction: column;
+
+} 
+
+.middle-c {
+    border-bottom: 2px dotted #232323;
+    margin: 5%;
+
+}
+button {
+   
+    border-radius: 10px;
+    width: 30%;
+    margin: 3%;
+}
+
+.bottom {
+    padding: 4%;
+}
