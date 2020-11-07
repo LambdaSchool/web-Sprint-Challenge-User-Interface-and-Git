@@ -51,11 +51,44 @@ table {
     box-sizing: border-box;
 }
 
+/**/
+
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
+header {height:15%;
+display:flex;
+flex-direction: row;
+padding-left: 5%;
+padding-right: 10%;
+ }
+header div.name {font-size:2rem;
+    padding:1rem;
+    padding-left:30%;
+    padding-top: 2.25%;
+    padding-right:4%;
+}
 
+header nav.headernav {display:flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    text-decoration: none;
+    padding-left: 7%;
+    padding-top: 3%;
+    }
+header nav.headernav a {text-decoration: none;
+    font-size: 1.1rem;
+    color:black;
+    padding-left:10%;
+    border: 0px;
+height:20px;
+ }
+div.homeimage img {display: flex;
+margin-left:30%;
+margin-bottom:2%;
+margin-right:30%;
+}
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -97,21 +130,70 @@ p {
 
 .middle-content .boxes {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box{
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
-    align-items: center;
-    justify-content: center;
+background:black;
+padding-left: 5%;
+padding-right:5%;
 }
-
+.middle-content .box1 {background: teal;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%; 
+}
+.middle-content .box2 {background:gold;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;}
+.middle-content .box3 {background: cadetblue;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+}
+.middle-content .box4{background:coral;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+}
+ .middle-content .box5 {background:crimson;
+     width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+}
+ .middle-content .box6 {background:forestgreen;
+     width: 12.5%;
+      height: 100px;
+       margin: 20px 2.5%;
+    }
+.middle-content .box7 {background:darkorchid;
+        width: 12.5%;
+       height: 100px;
+       margin: 20px 2.5%;
+    }
+.middle-content .box8 {background:hotpink;
+        width: 12.5%;
+       height: 100px;
+       margin: 20px 2.5%;
+    }
+ .middle-content .box9 {background:indigo;
+        width: 12.5%;
+       height: 100px;
+       margin: 20px 2.5%;
+    }
+.middle-content .box10 {background:dodgerblue;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    }
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +225,42 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.aboutimage {display: flex;
+    margin-left:30%;
+    margin-bottom:2%;
+    margin-right:30%;
+}
+.about {border-bottom:1px dashed black;
+margin-left:25%;
+margin-right:25%;
+margin-bottom:2%;
+padding-bottom:1%;
+padding-top:3%;
+}
+#bigbody{display:flex;
+    flex-flow: row wrap;
+padding-left:25%;
+}
+.image1 { 
+border-bottom: 1px dashed black;
+margin-right:5%;
+margin-bottom:4%;
+}
+.image2 {
+border-bottom: 1px dashed black;
+margin-left:2%;
+margin-bottom:4%;
+margin-right:17%;
+}
+.image3 {margin-right:7%;
+
+ }
+button {border:1px solid black;
+padding:7px;
+border-radius:10px;
+margin:20px;
+}
+.set3 { padding-bottom:5%;
+
 }
