@@ -62,13 +62,54 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+.heading {
+    display: flex;
+    align-items: baseline;
+    margin: 0 auto;
+}
+
+.heading img {
+  height: 50px;
+  width: 50px;
+  margin-right: 0;
+}
+
+.heading h1 {
+  font-weight: 900;
+  margin-left: 0;
+  font-size: 2.1rem;
+}
+
+.heading nav {
+  display: flex;
+  margin: 0 auto;
+}
+
+.heading a {
+  margin: 0px 30px 30px 30px;
+  text-decoration: none;
+  color: black;
+}
+
+.image img {
+  height: 200px;
+  width: 75vw;
+  margin-bottom: 30px;
+}
+
 p {
     line-height: 1.4;
 }
 
-.container {
+.container, .container-about-page {
     width: 800px;
     margin: 0 auto;
+}
+
+.about-info {
+  border-bottom: 1px dashed black;
+  padding-bottom: 10px;
+  margin-bottom: 20px
 }
 
 .top-content {
@@ -83,6 +124,31 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.about-box {
+  display: flex;
+  flex-flow: row wrap;
+  padding-bottom: 20px;
+}
+
+.about-locations {
+  border-bottom: 1px dashed black;
+  display: flex;
+  flex-flow: column wrap;
+  width: 48%;
+  padding-bottom: 20px;
+  padding-right: 10px;
+}
+
+.about-locations a {
+  text-decoration: none;
+  color: black;
+  border: 2px solid;
+  width: 30%;
+  text-align: center;
+  padding: 5px;
+  border-radius: 10px;
 }
 
 .middle-content {
@@ -101,15 +167,54 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10 {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box1 {
+  background: teal;
+}
+
+.box2 {
+  background: gold;
+}
+
+.box3 {
+  background: cadetblue;
+}
+
+.box4 {
+  background: coral;
+}
+
+.box5 {
+  background: crimson;
+}
+
+.box6 {
+  background: forestgreen;
+}
+
+.box7 {
+  background: darkorchid;
+}
+
+.box8 {
+  background: hotpink;
+}
+
+.box9 {
+  background: indigo;
+}
+
+.box10 {
+  background: dodgerblue;
 }
 
 .bottom-content {
@@ -124,6 +229,10 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.foot-p p{
+  margin-bottom: 30px;
 }
 
 footer {
