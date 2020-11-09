@@ -56,14 +56,36 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-size: 18px;
+h1, h2, h4, h5 {
+    font-size: 28px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
 
+h3 {
+    font-size: 25px;
+    border: 3px solid black;
+    border-radius: 15px;
+    width: 200px;
+    text-align: center;
+    margin: 25px 0px;
+    padding: 15px;
+    margin-bottom: 30px;
+    
+}
 p {
     line-height: 1.4;
+    font-size: 23px;
+    
+    
+}
+
+
+
+.wrapper {
+    margin-top: 40px;
+    margin-right: 175px;
+    margin-left:  175px;
 }
 
 .header-content-bar {
@@ -87,103 +109,96 @@ p {
     text-decoration: none;
     color:black;
     margin: 0 105px 0 3px;
-   
-}
-.jumboimg img {
-    width: 60%;
-    margin: 75px 3000px 50px 0;
+    
 }
 
-.container {
-    width: 800px;
-    margin: 0 auto;
+.jumboaboutimg img {
+    width: 1330px;
+    margin: 75px 0 50px
 }
+
 .top-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
+   
     border-bottom: 1px dashed black;
+    padding: 0px 100px 50px 35px;
+    margin-bottom: 50px;
 }
 
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
-}
-
-.middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
-
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
-}
-
-.middle-content .boxes {
+.middle-content-top {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.middle-content-top img {
+    width: 500px;
+    height: 350px;
 }
 
-.middle-content .boxes .box:nth-child(1) {
-    background-color: teal ;
+.strategy {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 110px;
+    border-bottom: dashed black;
 }
-.middle-content .boxes .box:nth-child(2) {
-    background-color:gold;
+
+.text-container1 {
+    margin-top: 20px;
+    
 }
-.middle-content .boxes .box:nth-child(3) {
-    background-color:cadetblue ;
+
+.howwework {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 110px;
+    border-bottom: dashed black;
 }
-.middle-content .boxes .box:nth-child(4) {
-    background-color: coral ;
+
+.text-container2 {
+    margin-top: 20px;
 }
-.middle-content .boxes .box:nth-child(5) {
-    background-color: crimson ;
+.middle-content-bottom{
+    display: flex;
+    justify-content: space-evenly;
 }
-.middle-content .boxes .box:nth-child(6) {
-    background-color: forestgreen ;
+
+.middle-content-bottom img{
+    width: 500px;
+    height: 350px;
 }
-.middle-content .boxes .box:nth-child(7) {
-    background-color: darkorchid ;
+
+.placeswework {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 110px;
+    border-bottom: dashed black;
 }
-.middle-content .boxes .box:nth-child(8) {
-    background-color: hotpink ;
+
+.text-container3 {
+    margin-top: 20px;
 }
-.middle-content .boxes .box:nth-child(9) {
-    background-color: indigo ;
+
+.collaboration {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 110px;
+    border-bottom: dashed black;
 }
-.middle-content .boxes .box:nth-child(10) {
-    background-color: dodgerblue ;
+
+.text-container4 {
+    margin-top: 20px;
 }
+
+
+
 
 .bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
-}
-
-.bottom-content .text-container {
-    padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
-}
-
+    margin: -10px 0 50px 300px;
+    }
+    
 footer {
     width: 100%;
     background: black;
@@ -195,7 +210,9 @@ footer nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
-    font-size: 14px;
+    font-size: 23px;
+    height: 105px;
+    margin: 30px 100px 0 300px;
 }
 
 footer nav a {
