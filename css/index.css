@@ -47,14 +47,44 @@ table {
 	border-spacing: 0;
 }
 
+/* Home Page CSS starts here */
 * {
     box-sizing: border-box;
+    
 }
 
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
+
+header{
+    width: 800px;
+    margin: 0 auto;
+    display: flex wrap;
+    justify-content: center;
+    align-items: center;
+   
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+    
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+.banner{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
@@ -111,7 +141,36 @@ p {
     align-items: center;
     justify-content: center;
 }
-
+#box1{
+    background-color: teal;
+}
+#box2{
+    background-color: gold;
+}
+#box3{
+    background-color: cadetblue;
+}
+#box4{
+    background-color: coral;
+}
+#box5{
+    background-color: crimson;
+}
+#box6{
+    background-color: forestgreen;
+}
+#box7{
+    background-color: darkorchid;
+}
+#box8{
+    background-color: hotpink;
+}
+#box9{
+    background-color: indigo;
+}
+#box10{
+    background-color: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +202,53 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* About page CSS below */
+.container-about-page{
+    width: 800px;
+    margin: 0 auto;
+    
+    
+}
+
+.about{
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+}
+.strategy, .how, .places, .collab{
+    width: 46%;
+    
+    align-content: center;
+    border-bottom: 1px dashed black;
+    
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 20px;
+    
+}
+.middle-sections{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    padding-bottom: 10px;
+    
+}
+
+.middle-sections button, .middle-sections h2, .lw{
+    margin-top: 20px;
+}
+.lw{
+    
+    margin-bottom: 30px;
+    padding: 0px 20px;
+}
+
+.middle-sections button{
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: white;
 }
