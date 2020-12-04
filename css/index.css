@@ -66,9 +66,40 @@ p {
     line-height: 1.4;
 }
 
+/*-- end reset --*/
+
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+/*-- nav and header image --*/
+
+header {
+    padding
+    display: flex wrap;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 20px 0px;
+    padding-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.banner {
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .top-content {
@@ -112,6 +143,46 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box:nth-child(1) {
+    background: teal;
+}
+
+.middle-content .boxes .box:nth-child(2) {
+    background: gold;
+}
+
+.middle-content .boxes .box:nth-child(3) {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box:nth-child(4) {
+    background: coral;
+}
+
+.middle-content .boxes .box:nth-child(5) {
+    background: crimson;
+}
+
+.middle-content .boxes .box:nth-child(6) {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box:nth-child(7) {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box:nth-child(8) {
+    background: hotpink;
+}
+
+.middle-content .boxes .box:nth-child(9) {
+    background: indigo;
+}
+
+.middle-content .boxes .box:nth-child(10) {
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +214,65 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/*-- about page style --*/
+
+
+.abouthead {
+    padding: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.aboutchildren {
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.aboutchildren img{
+    margin-bottom: 15px;
+}
+
+.plan {
+    width: 375px; 
+    height: 100%; 
+    border-bottom: 1px dashed black 1px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+.working {
+    width: 375px; 
+    height: 100%; 
+    border-bottom: 1px dashed black 1px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+.office {
+    width: 375px; 
+    height: 100%; 
+    border-bottom: 1px dashed black 1px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.meeting {
+    width: 375px; 
+    height: 100%; 
+    border-bottom: 1px dashed black 1px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.aboutbottom {
+    padding: 20px;
+}
+
+button {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px 20px;
 }
