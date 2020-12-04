@@ -65,7 +65,10 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-
+a{
+  text-decoration:none;
+  color:black;
+}
 .container {
     width: 800px;
     margin: 0 auto;
@@ -85,6 +88,10 @@ header{
   display:flex;
   width:100%;
 }
+#lambda{
+  height:40px;
+  position:center;
+}
 header nav{
   display:flex;
   justify-content:space-evenly;
@@ -102,7 +109,7 @@ header nav a{
   margin:1%;
   color:black;
 }
-#jumbo{
+#jumbo-about{
   height:153px;
   width:100%;
   margin:4% 0 2% 0;
@@ -116,74 +123,67 @@ header nav a{
     border-bottom: 1px dashed black;
 }
 
-.top-content .text-container {
-    width: 48%;
+.top-content{
+    width:100%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
 
 .middle-content {
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+  display:flex;
+  width:95%;
+  flex-wrap:wrap;
+  flex-flow:row;
 }
 
 .middle-content h2 {
-    padding: 0 2%;
+    margin-top:1%;
+  margin-bottom:1%;
     margin-bottom: 0;
 }
-
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.middle-content a{
+  border:2px solid black;
+  border-radius:25px;
+  display:flex;
+  justify-content:space-around;
 }
 
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.middle-box{
+  display: flex;
+  flex-flow:column;
+  margin:2%;
+  justify-content:space-evenly;
+  border-bottom:1px dashed black;
+  padding:1%;
+  margin:2%;
 }
-#box-1{
-  background-color:teal;
+.middle-box a{
+  width:25%;
+  height:30px;
+  border-radius:7px;
+  text-align:center;
+  margin:1% 0 5% 0;
+  bottom-border:1px solid black;
 }
-#box-2{
-  background-color:gold;
+.middle-box img{
+  width:100%;
+  border-radius:7px;
+  text-align:center;
+  margin:2% 0;
 }
-#box-3{
-  background-color:cadetblue;
-}
-#box-4{
-  background-color:coral;
-}
-#box-5{
-  background-color:crimson;
-}
-#box-6{
-  background-color:forestgreen;
-}
-#box-7{
-  background-color:darkorchid;
-}
-#box-8{
-  background-color:hotpink;
-}
-#box-9{
-  background-color:indigo;
-}
-#box-10{
-  background-color:dodgerblue;
+.middle-box p{
+  margin:1% 0;
 }
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
+  flex-flow:column;
+    margin: 2% 2% 20px;
     justify-content: space-around;
 }
-
+/* .middle-content a{
+  opacity:0; */
+}
 .bottom-content .text-container {
     padding-right: 4%;
 }
