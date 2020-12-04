@@ -66,6 +66,13 @@ p {
     line-height: 1.4;
 }
 
+.heroContainer img{
+    background-size:cover;
+    width: 70%;
+    height:25vh;
+    margin: 3% 4% 2% 14%;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -104,7 +111,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -141,6 +147,151 @@ footer nav {
 }
 
 footer nav a {
+    display: flex;
     color: white;
     text-decoration: none;
+    align-items: center;
+}
+
+.box1 {
+    background-color: teal;
+}
+
+.box2 {
+    background-color: gold;
+}
+
+.box3 {
+    background-color: cadetblue;
+}
+
+.box4 {
+    background-color: coral;
+}
+
+.box5 {
+    background-color: crimson;
+}
+
+.box6 {
+    background-color: forestgreen;
+}
+
+.box7 {
+    background-color: darkorchid;
+}
+
+.box8 {
+    background-color: hotpink;
+}
+
+.box9 {
+    background-color: indigo;
+}
+
+.box10 {
+    background-color: dodgerblue;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:2% 0% 0% 0%;
+}
+
+nav a {
+    text-decoration:none;
+    color:black;
+}
+
+.aboutHeader {
+    display: flex;
+    justify-content: center;
+    margin:2% 0% 2% 0%;
+}
+
+.corporateImgs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 60%;
+}
+
+
+
+.corporateContainer1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.corporateContainer2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.corporateImg1 {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin:2%;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.corporateImg2 {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.corporateImg3 {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.corporateImg4 {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+button {
+    width: 100px;
+    text-align: center;
+    padding: 2% 0;
+    border-radius: 10px;
+    border: 3px solid black;
+    transition: 2s;
+}
+
+.aboutContainer{
+    margin:0% 18% 0% 18%;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.insideAboutContainer{
+    margin:2%;
+}
+
+.insideLetsWork{
+    margin:3% 18% 3% 18%;
+}
+
+.aboutFooter{
+    margin:0% 18% 0% 18%;
+    width:65%;
 }
