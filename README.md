@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+A: semantic HTML is are tags you use when you want to be more specific such as div and section does the samething but section is more specific and div is just saying hey this is a box.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+:The difference is that in line puts the contain horizontailly and block takes up the whole with and is stacked vertical>
 
 3. What are the 4 areas of the box model?
 
+:Four areas are Margin-Padding-border-content.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+:The align-items takes place on the cross axis
+
 5. Explain why git is valuable to a team of developers.
+
+:Git is valuable to teams of developers by it makes it alot easier to break down projects to an individual level and then allows you to merge all of the projects into one main project.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -102,3 +112,7 @@ After finishing your required elements, you can push your work further. These go
 * [ ] refactor your HTML, make sure it's indented properly, clean, readable, you have written appropriate comments where necessary and that all attributes (required and encouraged) are filled out correctly.  
 * [ ] Ensure your CSS is organized and readable, you've seperated your code by section and that you are using descriptive class names and adding classes in your HTML where styles repeat rather than rewrting the same styles over again
 * [ ] Use a flex item property of your choice when laying out a section of your website, ensure you can explain how and why you've used this property 
+
+
+
+Jonathan-Majors
