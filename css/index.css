@@ -3,6 +3,8 @@
    License: none (public domain)
 */
 
+/* This is me trying to get this in so I can fully attempt for retake */
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -52,6 +54,7 @@ table {
 }
 
 html, body {
+    width: 100%;
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
@@ -62,11 +65,56 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+header{
+    width:100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+nav{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    height:30px;
+    background-color: white;
+    width:100%;
+    text-align:flex-start;
+    margin-top: 10px;
+}
+
+nav a{
+    text-decoration:none;
+    font-family:sans-serif;
+    background-color: white;
+    color:black;
+    font-size:14px;
+    padding:12px 30px;
+    transition:.5s;
+}
+
+nav a:hover{
+    color:white;
+    background:black;
+  }
+
+.banner-image {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        margin-top: 40px;
+        margin-bottom: 5px;
+    }
+
 p {
     line-height: 1.4;
 }
 
-.container {
+#page-container {
     width: 800px;
     margin: 0 auto;
 }
@@ -77,6 +125,10 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.text-container {
+    margin-top: 20px;
 }
 
 .top-content .text-container {
@@ -101,10 +153,9 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box{
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -112,6 +163,49 @@ p {
     justify-content: center;
 }
 
+.box:nth-child(1) {
+    background: teal;
+}
+
+.box:nth-child(1) {
+    background: teal;
+}
+
+.box:nth-child(2) {
+    background:gold;
+}
+
+.box:nth-child(3) {
+    background: cadetblue;
+}
+
+.box:nth-child(4) {
+    background: coral;
+}
+
+.box:nth-child(5) {
+    background: crimson;
+}
+
+.box:nth-child(6) {
+    background:forestgreen;
+}
+
+.box:nth-child(7) {
+    background: darkorchid;
+}
+
+.box:nth-child(8) {
+    background:hotpink;
+}
+
+.box:nth-child(9) {
+    background:indigo;
+}
+
+.box:nth-child(10) {
+    background: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -138,9 +232,55 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    background-color: black;
 }
 
 footer nav a {
+    background-color: black;
     color: white;
     text-decoration: none;
+}
+
+/* About.html css */
+
+.about-content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    /*border: 2px solid blue;*/
+
+}
+
+#category-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    /*border: 2px solid blue; */
+}
+
+.about-categories {
+    width: 50%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between; 
+    /*border: 2px solid blue;*/
+    padding-bottom: 10px;
+}
+
+.learn-more {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.about-intro-outro {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
