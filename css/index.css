@@ -29,7 +29,17 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    margin-right: 750px auto;
+    margin-left: 750px auto;
+    margin-top: 750px auto;
+    margin-bottom: 600px auto;
+    padding: 125px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 ol, ul {
 	list-style: none;
@@ -49,6 +59,8 @@ table {
 
 * {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 html, body {
@@ -60,6 +72,7 @@ h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+    text-align: center;
 }
 
 p {
@@ -67,8 +80,42 @@ p {
 }
 
 .container {
-    width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
+    background-color: white;
+    padding: 75px;
+    max-height: 1000px;
+    display: inline-block;
+    position: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 20px;
+}
+.container-about-page {
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 50px;
+    max-height: 1650px;
+    display: flex;
+    flex-direction: column;
+    position: center;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    padding: 10px;
+}
+#header {
+    align-content: center;
+    display: inline;
+    justify-content: center;
+    padding: 25px;
 }
 
 .top-content {
@@ -85,6 +132,14 @@ p {
     padding-bottom: 20px;  
 }
 
+.text-container2 {
+    width: 350px;
+    text-align: center;
+    padding:20px;
+    margin: 0;
+    display: inline-block;
+}
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -99,6 +154,8 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    position: sticky;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .middle-content .boxes .box {
@@ -126,9 +183,51 @@ p {
     padding-right: 0;
 }
 
+.secondcontainer {
+    display: flex;
+    margin: 0 2% 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    padding: 20px;
+    border-top: dashed black 1px;
+}
+
+.secondcontainer .text-container {
+    padding: 50px;
+    margin: 45px;
+}
+
+.secondcontainer .text-container:last-child {
+    padding: 50px;
+    margin: 45px;
+}
+
+.topcontainers {
+    display: flex;
+    margin: 0 2% 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    padding: 20px;
+    border-bottom: dashed black 1px;
+}
+
+.topcontainers .text-container {
+    padding-right: 4%;
+}
+
+.topcontainers .text-container:last-child {
+    padding-right: 0;
+}
+
 footer {
     width: 100%;
     background: black;
+    position: bottom relative;
+    display: inline-block;
+    justify-content: space-evenly;
+    align-content: center;
 }
 
 footer nav {
@@ -143,4 +242,151 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+#box1 {
+    background-color: teal;
+    padding: 50px;
+    text-align: center;
+    height: 110px;
+}
+
+#box2 {
+    background-color: gold;
+    padding: 50px;
+    text-align: center;
+}
+
+#box3 {
+    background-color: cadetblue;
+    padding: 50px;
+    text-align: center;
+}
+
+#box4 {
+    background-color: coral;
+    padding: 50px;
+    text-align: center;
+}
+
+#box5 {
+    background-color: crimson;
+    padding: 50px;
+    text-align: center;
+}
+
+#box6 {
+    background-color: forestgreen;
+    padding: 50px;
+    text-align: center;
+}
+
+#box7 {
+    background-color: darkorchid;
+    padding: 50px;
+    text-align: center;
+}
+
+#box8 {
+    background-color: hotpink;
+    padding: 50px;
+    text-align: center;
+}
+
+#box9 {
+    background-color: indigo;
+    padding: 50px;
+    text-align: center;
+}
+
+#box10 {
+    background-color: dodgerblue;
+    padding: 50px;
+    text-align: center;
+}
+
+.box {
+    font-size: 20px;
+    text-align: center;
+    text-overflow: inherit;
+    font-weight: 500;
+}
+
+header {
+    position: top relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header nav {
+    width: 60%;
+    font-size: 14px;
+    position: relative right;
+}
+
+.aboutheader {
+    padding-top: 45px;
+    margin:45px;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#tophome {
+    padding: 27px;
+}
+
+#topabout {
+    padding: 27px;
+}
+
+#topproducts {
+    padding: 27px;
+}
+
+#topblog {
+    padding: 27px;
+}
+
+#topcontacts {
+    padding: 27px;
+}
+
+.bodyimages {
+    max-width: 350px;
+}
+
+.learnbuttons {
+    padding: 10px 24px;
+    font-size: 12px;
+    color: white;
+    background-color: black;
+    border-radius: 18px;
+}
+
+#strategy {
+    padding: 35px;
+    margin: 30px;
+}
+
+#howwework {
+    padding: 35px;
+    margin: 30px;
+}
+
+#placeswework {
+    padding: 35px;
+    margin: 30px;
+}
+
+#collaboration {
+    padding: 35px;
+    margin: 30px;
 }
