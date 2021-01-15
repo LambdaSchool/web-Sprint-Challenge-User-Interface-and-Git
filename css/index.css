@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
 ol, ul {
 	list-style: none;
@@ -49,6 +49,29 @@ table {
 
 * {
     box-sizing: border-box;
+
+}
+
+header {
+    padding:3%;
+}
+
+header nav {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    font-size: 30px;
+
+}
+
+header nav a{
+    text-decoration: none;
+    color:black;
+    transition:.3s;
+}
+
+a:hover {
+    background-color:rgba(75, 59, 6, 0.938);
 }
 
 html, body {
@@ -104,12 +127,51 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box:nth-of-type(1){
+    background:teal;
+}
+
+.box:nth-of-type(2){
+    background: gold;
+}
+
+.box:nth-of-type(3){
+    background: cadetblue;
+}
+
+.box:nth-of-type(4){
+    background: coral;
+}
+
+.box:nth-of-type(5){
+    background:crimson;
+}
+
+.box:nth-of-type(6){
+    background: forestgreen;
+}
+
+.box:nth-of-type(7){
+    background:darkorchid;
+}
+
+.box:nth-of-type(8){
+    background: hotpink;
+}
+
+.box:nth-of-type(9){
+    background: indigo;
+}
+
+.box:nth-of-type(10){
+    background: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +205,35 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*Selectors Below For The About Page*/
+
+.aboutcontainer {
+    border-bottom: 2px black solid;
+
+    
+}
+
+#main {
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    border-bottom:black dotted 1px;
+    margin:2%;
+    margin-bottom:2%
+}
+
+#main div {
+    width: 49%;
+}
+
+button {
+    border:black solid 2px;
+    border-radius: 10%;
+    padding: 2%;
+}
+
+.end {
+    margin-top:2%;
 }
