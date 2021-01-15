@@ -66,9 +66,51 @@ p {
     line-height: 1.4;
 }
 
+
+header {
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+    justify-content: flex-start;
+    margin: 0 auto;
+    align-items: baseline;
+}
+
+
 .container {
     width: 800px;
     margin: 0 auto;
+    border: 1px solid black;
+}
+
+
+.header {
+    display: inline-flex
+}
+
+
+.header img {
+    justify-content: flex-start;
+    padding: 10px;
+    border: 1px solid black
+}
+
+.headerNav {
+    display: inline-flex;
+    justify-content: right;
+
+}
+
+.headerNav a {
+    display: inline-flex;
+    justify-items: flex-end;
+    border: 1px solid blue;
+    justify-content: right;
+}
+
+body img {
+    justify-content: center;
+}
 }
 
 .top-content {
@@ -77,6 +119,7 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    font: bolder
 }
 
 .top-content .text-container {
@@ -104,7 +147,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -126,12 +168,12 @@ p {
     padding-right: 0;
 }
 
-footer {
+.footer {
     width: 100%;
     background: black;
 }
 
-footer nav {
+.footer nav {
     width: 60%;
     display: flex;
     justify-content: space-between;
@@ -140,7 +182,37 @@ footer nav {
     font-size: 14px;
 }
 
-footer nav a {
+.footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.button {
+    border: 3px solid black;
+    padding: 20px;
+    border-radius: 20px;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+
+.window {
+    display: block;
+
+}
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flexbox .flexItem {
+    background: transparent;
+    padding: 20px;
+    }
+
+.flexbox .flexitem img {
+    width: 50%;
 }
