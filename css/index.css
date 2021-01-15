@@ -66,6 +66,72 @@ p {
     line-height: 1.4;
 }
 
+/* NAV */
+nav{
+    width: 100%;
+    padding: 20px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul a {
+    padding: 40px;
+    color: black;
+}
+
+nav ul a:link {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+/* HEADER */
+header .banner {
+    margin-bottom: 20px;
+}
+
+/* BOXES */
+
+.box:nth-child(1){
+    background-color: teal;
+}
+.box:nth-child(2){
+    background-color: gold;
+}
+.box:nth-child(3){
+    background-color: cadetblue;
+}
+.box:nth-child(4){
+    background-color: coral;
+}
+.box:nth-child(5){
+    background-color: crimson;
+}
+.box:nth-child(6){
+    background-color: forestgreen;
+}
+.box:nth-child(7){
+    background-color: darkorchid;
+}
+.box:nth-child(8){
+    background-color: hotpink;
+}
+.box:nth-child(9){
+    background-color: indigo;
+}
+.box:nth-child(10){
+    background-color: dodgerblue;
+}
+
+
+
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -104,7 +170,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +209,12 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* ABOUT PAGE */
+.top-content .text-container a {
+    text-decoration: none;
+    color: black;
+    /* border: 2px solid black;
+    padding: 20px */
 }
