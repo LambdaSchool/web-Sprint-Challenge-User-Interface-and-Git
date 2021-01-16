@@ -71,6 +71,27 @@ p {
     margin: 0 auto;
 }
 
+
+.header{
+    display:flex;
+    flex-direction: column;
+}
+
+.title{
+    display:flex;
+}
+
+.header div{
+    margin:20px 0px;
+}
+
+.headernav{
+    display:flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -101,7 +122,7 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes div{
     width: 12.5%;
     height: 100px;
     background: black;
@@ -143,4 +164,87 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+
+.middle-content .boxes .box1{
+    background-color: teal;
+}
+
+.middle-content .boxes .box2{
+    background-color:gold;
+}
+
+.middle-content .boxes .box3{
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box4{
+    background-color:coral;
+}
+
+.middle-content .boxes .box5{
+    background-color:crimson;
+}
+
+.middle-content .boxes .box6{
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box7{
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box8{
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box9{
+    background-color: indigo;
+}
+
+.middle-content .boxes .box10{
+    background-color: dodgerblue;
+}
+
+
+.about-top{
+    display:flex;
+    flex-direction: column;
+    padding: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-middle div{
+    border: 3px solid red;
+    width: 45%;
+    height: 100%
+    display:flex;
+    margin: 20px 0px;
+    border-bottom: 1px dashed black;
+}
+
+.about-middle{
+    display:flex;
+    flex-wrap: wrap;
+    border: 3px solid black;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.about-middle button{
+    width:100px;
+    height: 25px;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+}
+
+.bottom{
+    padding: 20px;
 }
