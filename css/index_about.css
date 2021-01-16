@@ -56,11 +56,33 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5,p{
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+    margin-bottom: 0;
 }
+
+ .sometexttop{
+    padding: 0 4%;
+    padding-bottom:3%;
+    margin-bottom: 0;
+    border-bottom: 1px dashed black;
+
+}
+.sometexttop h2{
+    padding:2% 0;
+}
+
+.sometextbottom{
+    padding: 4%;
+    margin-bottom: 0;
+}
+.sometextbottom h2{
+    padding:2% 0;
+}
+
+
 
 p {
     line-height: 1.4;
@@ -76,7 +98,6 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
 }
 
 .top-content .text-container {
@@ -85,61 +106,57 @@ p {
     padding-bottom: 20px;  
 }
 
-.middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
+
 
 .middle-content h2 {
-    padding: 0 2%;
     margin-bottom: 0;
 }
 
+
+
 .middle-content .boxes {
+    padding:0 2%;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    flex-wrap:wrap;
+    justify-content: space-around;
 }
 
 
 /* Sorry i had no idea how to make it in another way */
 
-.middle-content .boxes .box{
-    width: 12.5%;
-    height: 100px;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
+
+
+.box1, .box2, .box3, .box4{
+    width:350px;
+    height:450px;
 }
 
-.box:nth-child(1) {
-    background:teal;
+.test{
+    margin-top:4%;
+    border-bottom: 1px dashed black;
 }
-.box:nth-child(2) {
-    background: gold;
-}.box:nth-child(3) {
-    background: cadetblue;
-}.box:nth-child(4) {
-    background: coral;
-}.box:nth-child(5) {
-    background: crimson;
-}.box:nth-child(6) {
-    background: forestgreen;
-}.box:nth-child(7) {
-    background: darkorchid;
-}.box:nth-child(8) {
-    background: hotpink;
-}.box:nth-child(9) {
-    background: indigo;
-}.box:nth-child(10) {
-    background: dodgerblue;
+
+.test a{
+ border-radius:10px;
+ border:2px solid black;
+ padding:3% 6%;
+ text-decoration: none;
+ color:black;
+ display: inline-block;
+ margin-top:5%;
+}
+.boxes h2, .boxes p{
+    padding-top:2%;
+    padding-bottom:5%;
+  }
+
+.middle-content img{
+    width:350px;
 }
 
 
-/* Sorry i had no idea how to make it in another way */
+
+
 
 
 .bottom-content {
@@ -179,8 +196,6 @@ footer nav a {
 
 
 /* my code starts here */
-
-
 
 
 
