@@ -28,6 +28,55 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+*{
+    text-decoration:none;
+}
+header{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:center;
+    align-items:center;
+}
+.navbar{
+    
+    display:flex;
+    flex-flow:row wrap;
+    width:100vw;
+    height:80px;
+    margin:auto;
+    justify-content:flex-start;
+    align-items:flex-end;
+    margin-left:100px;
+    margin-bottom:40px;
+}
+.topimg{
+    background: url("../img/lambda-black.png");
+    box-sizing:border-box;
+    width:157px;
+    height:40px;
+    
+}
+.links{
+    display:flex;
+    flex-flow:row wrap;
+    height:40px;
+    width:600px;
+    justify-content:space-between;
+    align-items:flex-end;
+    padding-left:100px;
+    
+}
+.links a{
+    color:black;
+    font-weight:bold;
+}
+.crossimg{
+    display:flex;
+    background:url(../img/jumbo.jpg);
+    width:800px;
+    height:150px;
+    margin-bottom:40px;
+}
 body {
 	line-height: 1;
 }
@@ -67,6 +116,8 @@ p {
 }
 
 .container {
+    display:flex;
+    flex-flow:row wrap;
     width: 800px;
     margin: 0 auto;
 }
@@ -99,18 +150,142 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    align-items:space-evenly;
+    
+    margin-bottom:20px;
+    
 }
 
-.middle-content .boxes .box {
-    width: 12.5%;
+.middle-content .boxes .box{
+    width: 100px;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
-    color: white;
+    color: black;
     display: flex;
     align-items: center;
     justify-content: center;
+    border:1px solid black;
 }
+
+
+
+.aboutcross{
+    background:url(../img/jumbo-about.png);
+    display:flex;
+    width:800px;
+    height:150px;
+    margin-bottom:40px;
+}
+.container-about-page{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:center;
+    align-items:center;
+    width:800px;
+    margin-left:5px;
+    border-bottom:dashed;
+}
+.main-container{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:space-evenly;
+}
+.color1{
+    background:teal;
+}
+.box1{
+    background:aqua;
+}
+.box2{
+    background:gold;
+}
+.box3{
+    background:cadetblue;
+}
+.box4{
+    background:coral;
+}
+.box5{
+    background:crimson;
+}
+.box6{
+    background:forestgreen;
+}
+.box7{
+    background:darkorchid;
+}
+.box8{
+    background:hotpink;
+}
+.box9{
+    background:indigo;
+}
+.box10{
+    background:dodgerblue;
+}
+
+
+body img{
+    margin:20px;
+}
+.topleft{
+    display:flex;
+    flex-flow:column wrap;
+    width:400px;
+    height:400px;
+    border-bottom:dashed;
+    
+    
+}
+.topright{
+    display:flex;
+    flex-flow:column wrap;
+    width:400px;
+    height:400px;
+    border-bottom:dashed;
+}
+.toplefttext{
+    margin-left:20px;
+}
+.topright-text{
+    margin-left:20px;
+}
+.bottomleft{
+    display:flex;
+    flex-flow:column wrap;
+    width:400px;
+    height:400px;
+    border-bottom:dashed;
+    
+}
+.bltext{
+    margin-left:20px;
+}
+.bottomright{
+    display:flex;
+    flex-flow:column wrap;
+    width:400px;
+    height:400px;
+    border-bottom:dashed;
+}
+.brtext{
+    margin-left:20px;
+}
+.bottom-section{
+    display:flex;
+    flex-flow:column wrap;
+    align-items:center;
+    justify-content:center;
+    
+}
+.bstext{
+    margin-top:20px;
+    width:700px;
+    margin-bottom:20px;
+}
+
+
+
 
 .bottom-content {
     display: flex;
@@ -140,7 +315,20 @@ footer nav {
     font-size: 14px;
 }
 
+
 footer nav a {
     color: white;
     text-decoration: none;
+    padding:4px;
+    
+    
+}
+.main-container a{
+    color:black;
+    border:1px solid black;
+    border-radius:4px;
+    background:white;
+    font-size:.8em;
+    padding:2px 8px;
+    font-weight:bold;
 }
