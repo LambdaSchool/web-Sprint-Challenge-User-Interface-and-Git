@@ -1,8 +1,9 @@
+/* index page css below */
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -23,25 +24,31 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
+
 ol, ul {
 	list-style: none;
 }
+
 blockquote, q {
 	quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -49,6 +56,7 @@ table {
 
 * {
     box-sizing: border-box;
+    
 }
 
 html, body {
@@ -56,10 +64,41 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* index.html below - about.html starts on line 325 */
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 25px 220px 25px 185px;
+}
+
+header a:hover {
+    background-color: red;
+    opacity: .5;
+}
+
+body header a {
+    color:black;
+    text-decoration: none;
+    border: none;
+}
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
-    margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+    margin-bottom: 15px;
+}
+
+body a {
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 20%;
+    padding: 1% 1.5%;
 }
 
 p {
@@ -71,6 +110,12 @@ p {
     margin: 0 auto;
 }
 
+.jumboImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -80,36 +125,161 @@ p {
 }
 
 .top-content .text-container {
+    display: flex;
+    flex-wrap: wrap;
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding: 20px 0 20px 0;  
 }
 
 .middle-content {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 
 .middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
+    padding-right: 525px;
 }
 
-.middle-content .boxes {
+.boxesItem {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0 5% 0 5%;
 }
 
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
+
+.boxes {
     display: flex;
+    flex-flow: row wrap;
+    width: 100%;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    color: white;
+}
+
+.box#tealBox {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: teal;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    line-height: 60px;
+}
+
+.box#goldBox {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: gold;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    line-height: 60px;
+}
+
+.box#cadetBlueBox {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: cadetblue;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    line-height: 60px;
+}
+
+.box#coralBox {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: coral;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    line-height: 60px;
+}
+
+.box#crimsonBox {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: crimson;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    line-height: 60px;
+}
+
+.box#forestGreenBox {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: forestgreen;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    line-height: 60px;
+}
+
+.box#darkOrchidBox {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: darkorchid;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    line-height: 60px;
+}
+
+.box#hotPinkBox {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: hotpink;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    line-height: 60px;
+}
+
+.box#indigoBox {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: indigo;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    line-height: 60px;
+}
+
+.box#dodgerBlueBox {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: dodgerblue;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    line-height: 60px;
 }
 
 .bottom-content {
@@ -127,7 +297,9 @@ p {
 }
 
 footer {
-    width: 100%;
+    display: flex;  
+    align-items: center;
+    justify-content: flex-start;
     background: black;
 }
 
@@ -143,4 +315,72 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+footer nav a:hover {
+    background-color: red;
+    opacity: .5;
+}
+
+.cards {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cardsItem {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0 5% 0 5%;
+}
+
+.card {
+    margin: .75rem auto;
+    padding: .75rem;
+}
+
+.cardImg {
+    margin: 0.5rem auto;
+}
+
+.cardText {
+    margin: 0.25rem auto;
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+    padding: 3px;
+    margin: auto;
+}
+
+.letsWorkTogetherContainer {
+    width: 80%;
+    height: auto;
+    margin: 2rem auto;
+    padding: 0.25rem;
+}
+
+div.aboutContainer {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 60%; /* Change this to whatever width you want. */
+    padding-top: 20px; /* This creates some space between the element and the border. */
+    border-bottom: 1px dashed black; /* This creates the border. Replace black with whatever color you want. */
+}
+
+.learnMore {
+    padding-bottom: 30px;
+    border-bottom: 1px dashed black;
+}
+
+ul.cards {
+    padding: 0 10% 0 10%;
+}
+
+.letsWorkTogetherContainer {
+    padding: 0 5% 0 5%;
 }
