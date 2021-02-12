@@ -1,0 +1,155 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+* {
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, h4, h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-top:15px;
+    font-family: 'Rubik', sans-serif;
+}
+p {
+    line-height: 1.4;
+    margin-bottom:2vh;
+}
+header {width:100%;
+}
+header nav {display:flex;
+    justify-content: space-evenly;
+    align-items:baseline;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+header nav a{
+    color: black;
+    text-decoration: none;
+}
+.headerimg {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+.top-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+.top-content .text-container {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+.headerimg {margin-top:2vh;
+    margin-bottom:2vh;
+    max-width:100%;
+}
+.about {padding:1vh;
+    border-bottom: 1px dashed black;
+    margin-bottom:2vh;
+}
+.gallery {width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+.strategy {width:45%;
+    padding:1vh;
+    border-bottom: 1px dashed black;
+}
+.how {width:50%;
+    padding:1vh;
+    border-bottom: 1px dashed black;
+}
+.places {margin-top:5vh;
+    width:45%;
+    padding:1vh;
+    border-bottom: 1px dashed black;
+}
+.collab {margin-top:5vh;
+    width:50%;
+    padding:1vh;
+    border-bottom: 1px dashed black;
+}
+.learn {border:2px solid black;
+    border-radius:15px;
+    text-align:center;
+    display:inline-block;
+    padding: 10px 30px;
+    margin-top:2vh;
+    margin-bottom:1vh;
+}
+.work {margin: 4vh;
+}
+footer {
+    width: 100%;
+    background: black;
+}
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
