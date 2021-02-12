@@ -66,9 +66,38 @@ p {
     line-height: 1.4;
 }
 
+
+
+
+/* Student Home Page Work */
+
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+header nav {
+    /* border: 1px solid yellow; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+/* header nav .logo {
+    border: 1px solid red;
+} */
+
+header nav a {
+    /* border: 1px solid blue; */
+    width: 70%;
+    color: black;
+    justify-content: center;
+    padding: 15px 36px;
+    text-decoration: none;
 }
 
 .top-content {
@@ -81,7 +110,7 @@ p {
 
 .top-content .text-container {
     width: 48%;
-    padding: 0 1%;
+    padding: 2% 1%;
     padding-bottom: 20px;  
 }
 
@@ -104,12 +133,16 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background-color: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .box .box1 {
+    background-color: teal;
 }
 
 .bottom-content {
@@ -143,4 +176,91 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+
+/* Student About Page Work */
+
+.containerAboutPage {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.about {
+    width: 100%;
+    padding-bottom: 2%;
+    justify-content: left;
+    border-bottom: dashed black;
+}
+
+.about h2 {
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.gallery {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    /* border: 2px solid blue; */
+}
+
+.gallery .article {
+    display: flex;
+    display: block;
+    width: 48%;
+    padding: 2%;
+    border-bottom: dashed black;
+}
+
+.gallery .article img {
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.gallery .article .text {
+    justify-content: left;
+    align-content: center;
+    line-height: 1.2;
+}
+
+/* .gallery .article text {
+    justify-content: left;
+    padding-bottom: 20px;
+} */
+
+/* .gallery .article a {
+    padding-top: 10px;
+} */
+
+/* .gallery .info {
+    display: flex;
+    width: 40%;
+    border: 1px red;
+    justify-content: left;
+} */
+
+/* .gallery .article div a {
+    border: 1px yellow;
+} */
+
+.button {
+    border: 2px solid black;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+    background: white;
+    margin-top: 10px;
+}
+
+.workTogether {
+    justify-content: left;
+    align-content: center;
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 30px;
 }
