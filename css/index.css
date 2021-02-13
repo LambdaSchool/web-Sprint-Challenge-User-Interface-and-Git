@@ -71,19 +71,56 @@ p {
     margin: 0 auto;
 }
 
+
+.top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom:3%;
+    margin-top: 2%;
+}
+.logo {
+    width:10%;
+    margin-bottom:2%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.topnav{
+    display:flex;
+    flex-wrap: wrap;
+    width: 75%;
+    margin-top:3%;
+    justify-content: space-evenly;   
+}
+    .top nav a{
+        color:black;
+        text-decoration: none;
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: space-evenly;
+        margin-bottom:2%;
+    }
+.picture{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    margin-top:2%;
+    
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
 }
-
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
 
 .middle-content {
     margin-bottom: 20px;
@@ -99,6 +136,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    
 }
 
 .middle-content .boxes .box {
@@ -111,6 +149,138 @@ p {
     align-items: center;
     justify-content: center;
 }
+ #box1{
+    background: teal;
+}
+ #box2{
+    background: gold;
+}
+ #box3{
+    background: cadetblue;
+}
+ #box4{
+    background: coral;
+}
+ #box5{
+    background: crimson;
+}
+ #box6{
+    background: forestgreen;
+}
+ #box7{
+    background: darkorchid;
+}
+ #box8{
+    background: hotpink;
+}
+ #box9{
+    background: indigo;
+}
+ #box10{
+    background: dodgerblue;
+}
+
+
+/*.box1{
+    display: flex;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    align-items: center;
+    justify-content: center;
+    background-color: teal;
+    color: white;
+}
+.box2{
+    display: flex;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    align-items: center;
+    justify-content: center;
+    background-color: gold;
+    color: white;
+}
+.box3{
+    display: flex;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    align-items: center;
+    justify-content: center;
+    background-color: cadetblue;
+    color: white;
+}
+.box4{
+    display: flex;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    align-items: center;
+    justify-content: center;
+    background-color: coral;
+    color: white;
+}
+.box5{
+    display: flex;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    align-items: center;
+    justify-content: center;
+    background-color: crimson;
+    color: white;
+}
+.box6{
+    display: flex;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    align-items: center;
+    justify-content: center;
+    background-color: forestgreen;
+    color: white;
+}
+.box7{
+    display: flex;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    align-items: center;
+    justify-content: center;
+    background-color: darkorchid;
+    color: white;
+}
+.box8{
+    display: flex;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    align-items: center;
+    justify-content: center;
+    background-color: hotpink;
+    color: white;
+}
+.box9{
+    display: flex;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    align-items: center;
+    justify-content: center;
+    background-color: indigo;
+    color: white;
+}
+.box10{
+    display: flex;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    align-items: center;
+    justify-content: center;
+    background-color: dodgerblue;
+    color: white;
+}*/
 
 .bottom-content {
     display: flex;
@@ -143,4 +313,35 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+
+.text-container-about{
+    margin-left:2%;
+    margin-bottom:3%;
+}
+.middle-content-about{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.gallery{
+    padding-top:4%;
+    width:45%;
+    border-bottom: 1px dashed black;
+}
+.gallery h2{
+    margin-top:3%;
+}
+.gallery button{
+    padding:3% 10%;
+    font-weight: bold;
+    margin:5% 0%;
+    text-align:center;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.last{
+    padding:5% 3%;
 }
