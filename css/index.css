@@ -24,6 +24,8 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
+
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -34,6 +36,42 @@ body {
 ol, ul {
 	list-style: none;
 }
+
+.top-nav{
+    display: flex;
+    margin: auto;
+    width: 800px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.top-nav a {
+    margin-top: 40px;
+    text-decoration: none;
+}
+.top-nav img{
+    object-fit: fill;
+    margin-top: 20px;
+}
+a {
+color: black;
+}
+
+a:hover{
+    color: green;
+}
+
+.jumbotron{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.jumbotron img{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    width: 105%;
+}
+
 blockquote, q {
 	quotes: none;
 }
@@ -50,6 +88,19 @@ table {
 * {
     box-sizing: border-box;
 }
+/* box colors */
+#box1 {background-color: #118080;}
+#box2 {background-color: #FED701;}
+#box3 {background: #609EA0;}
+#box4 {background: #FD7F50;}
+#box5 {background: #DC153D;}
+#box6 {background: #238B21;}
+#box7 {background: #9832CC;}
+#box8 {background: #FC69B5;}
+#box9 {background: #4B0082;}
+#box10 {background: #1D91FF;}
+
+
 
 html, body {
     height: 100%;
