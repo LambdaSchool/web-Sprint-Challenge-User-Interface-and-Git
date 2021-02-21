@@ -66,9 +66,34 @@ p {
     line-height: 1.4;
 }
 
+header{
+    display: flex;
+    margin: 0 auto;
+    width: 800px;
+    height: 4vh;
+    align-items: flex-end;
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-start;
+    height: auto;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+
 .container {
     width: 800px;
     margin: 0 auto;
+    
 }
 
 .top-content {
@@ -99,17 +124,20 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    align-items: center;
 }
+
 
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
     background: black;
-    margin: 20px 2.5%;
+
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 20px 22px 20px 22px;
 }
 
 .bottom-content {
@@ -124,6 +152,19 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.box_text{
+    flex-direction: inline;
+    width: 50%;
+    
+}
+
+.learn_more_button {
+    padding: 5px 10px;
+    border-radius: 10%;
+    border: 2px solid black;
+    font-size: .85rem;
 }
 
 footer {
@@ -144,3 +185,85 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+#navbar {
+    width: 100%
+}
+
+#header_photo {
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+#about_section {
+    border-bottom: 2px dotted black;
+    margin: 20px 5px;
+    padding-bottom: 20px;
+    
+}
+
+#top_row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    
+}
+
+#top_row1 {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 2px dotted black; 
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+#top_row1 div{
+    width: 45%;
+}
+
+#bottom_row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    
+}
+
+#bottom_row1 {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 2px dotted black; 
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+
+#bottom_row1 div{
+    width: 45%;
+
+.top_row1 div p{
+    margin-bottom: 10px;
+}
+
+
+
+#bottom p: {
+    display: flex;
+    padding-bottom: 
+}
+
+#bottom_nav {
+    margin-top: 5%;
+}
+
