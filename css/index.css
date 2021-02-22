@@ -1,3 +1,5 @@
+/* CSS reset */
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -47,6 +49,8 @@ table {
 	border-spacing: 0;
 }
 
+/* Start of the page CSS */
+
 * {
     box-sizing: border-box;
 }
@@ -71,11 +75,32 @@ p {
     margin: 0 auto;
 }
 
+.header {
+    margin: 2% 0 5% 0;
+}
+
+.header nav{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 20%;
+}
+
+.header nav a {
+    text-decoration: none;
+    color: black;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin: 20px 0 20px 0;
+    border-bottom: 1px dashed black;
+}
+
+.about-top-content {
+    margin: 20px 0 20px 0;
+    padding: 0 20px 20px 20px;
     border-bottom: 1px dashed black;
 }
 
@@ -83,6 +108,39 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.about-middle-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about-middle-content .about-text-container {
+    border-bottom: 1px dashed black;
+    width: 45%;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.about-middle-content h2 {
+    margin-top: 10px;
+}
+
+.about-middle-content p {
+    width: 400px;
+    padding-bottom: 20px;
+}
+
+.about-middle-content button {
+    padding: 8px 20px;
+    border-radius: 9px;
+    border: 2px solid black;
+    background: white;
+    margin-bottom: 20px;
+    font-size: 14px;
 }
 
 .middle-content {
@@ -112,10 +170,54 @@ p {
     justify-content: center;
 }
 
+#box1 {
+    background: teal;
+}
+
+#box2 {
+    background: gold;
+}
+
+#box3 {
+    background: cadetblue;
+}
+
+#box4 {
+    background: coral;
+}
+
+#box5 {
+    background: crimson;
+}
+
+#box6 {
+    background: forestgreen;
+}
+
+#box7 {
+    background: darkorchid;
+}
+
+#box8 {
+    background: hotpink;
+}
+
+#box9 {
+    background: indigo;
+}
+
+#box10 {
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+}
+
+.about-bottom-content {
+    margin: 20px 20px 40px 20px;
 }
 
 .bottom-content .text-container {
