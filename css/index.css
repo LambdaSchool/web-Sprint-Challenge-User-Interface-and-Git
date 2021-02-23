@@ -64,8 +64,33 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+	Margin-bottom: 25px;
 }
-
+header {
+    padding: 30px;
+    justify-content: space-between;
+    text-align: center;
+}
+ul {
+    margin: 0;
+    padding 0;
+    list-style-type: none;
+}
+li {
+    display: inline-block;
+    margin-right: 100px;
+}
+a {
+  color: black;
+  text-decoration: none;
+ 
+}
+.jumbo {
+    margin: 50px 0px 0px 0px;
+}
+.jumbo-about {
+    margin: 50px 0px 0px 0px;
+}
 .container {
     width: 800px;
     margin: 0 auto;
@@ -80,7 +105,7 @@ p {
 }
 
 .top-content .text-container {
-    width: 48%;
+    width: 100%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
@@ -104,7 +129,102 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box2 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box3 {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box4 {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box5 {
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box6 {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box7 {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box8 {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box9 {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box10 {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -144,3 +264,45 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+.middle-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+.middle-about .about {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 40px;  
+}
+.button {
+    text-align: center;
+    text-decoration: none;
+    border: solid black;
+    border-radius: 12px;
+    padding: 10px;
+    margin: 10px;
+}
+.middle-about2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.middle-about2 .about2 {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 40px;  
+}
+.aboutbottom {
+    display: flex;
+    margin: 0 2% 20px;
+    justify-content: flex-start;
+}
+.aboutbottom {
+    padding-right: 4%;
+}
+
+.bottom-content {
+    padding-right: 0;
