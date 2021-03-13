@@ -1,3 +1,33 @@
+/*
+
+1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+
+Semantic HTML is the marking of pieces of information with tags or titles that can be used to easily distingushed the content included. The semantic tags or titles are very intuitive and straight forward with their meaning.
+
+2. Name two big differences between display: block; and display: inline;.
+
+Display:block means that the element will be displayed as a block and inline the element takes up as much space needed to show element in line.
+
+3. What are the 4 areas of the box model?
+
+Content, padding, border and margin
+
+4. While using flexbox, what axis does the following property work on: align-items: center?
+
+the cross axis
+
+
+5.Explain why git is valuable to a team of developers.
+
+It can help track any changes or updates without affecting the main branch. You can always go back to previous versions in your branch if something happens. You can update or bug fixes without affecting the main branch and then push up for review when done without directly affecting the remote branch.
+
+*/
+
+
+
+
+
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -49,7 +79,34 @@ table {
 
 * {
     box-sizing: border-box;
+    align-items: center;
 }
+
+
+header nav{
+    position:fixed;
+    width:100%;
+    top:0;
+    background-color:rgba(255, 255, 255, 0.8);
+    align-items:center;
+    height:10vh;
+    z-index: 999;
+  display:flex;
+  justify-content: center;
+}
+
+.links{
+    width:50%;
+    align-items:center;
+  display:flex;
+  justify-content:space-around;
+  margin:50px;
+}
+.links a{
+    text-decoration: none;
+    color: black;
+}
+
 
 html, body {
     height: 100%;
@@ -66,6 +123,11 @@ p {
     line-height: 1.4;
 }
 
+#toppic{
+    position: relative;
+    margin-top: 100px;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -75,6 +137,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-top: 20px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -112,6 +175,110 @@ p {
     justify-content: center;
 }
 
+.box1{
+    width: 12.5%;
+    height: 100px;
+    background:teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box2{
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box3{
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box4{
+    width: 12.5%;
+    height: 100px;
+    background:coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box5{
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box6{
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box7{
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box8{
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box9{
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box10{
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +310,64 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* About Page */
+
+
+.abouttop{
+  display:flex;
+    margin-top: 90px;
+  
+}
+
+
+
+
+
+.middle-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    width: 80%;
+    
+    
+}
+
+.middle-about .about-container {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+
+
+.buttons{
+    box-sizing: border-box;
+    padding: 1%;
+    margin: 1%;
+    border: 1px solid black;
+    background-color:white;
+    color: black;
+    width: 100px;
+    border-radius:10px;
+    text-align: center;
+    
+}
+
+.bottom-about {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.bottom-nav{
+margin-left: auto;
+    margin-right: auto;
+    width: 70%;
 }
