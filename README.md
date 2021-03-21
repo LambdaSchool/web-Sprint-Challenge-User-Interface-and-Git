@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+<!-- I would describe Semantic HTML as HTML elements with meaning, such as "header" "footer" "section" "p". To make it clearer, I would contrast it with HTML that is not semantic, such as "div" or "span", which serve the purpose of defining sections of code to be styled. Semantic HTML is code that is more "user-friendly" and readable than non-semantic code, because of its' self-explanatory nature. Semantic HTML also is important when designing websites with accessibility in mind. -->
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+<!-- Display:block elements will always be on their own lines. Display:inline elements will be "in line" with other elements and do not "require" a line break to exist. Inline elements only take up as much space as they need. Block elements have vertical (top/bottom) margins, inline elements do not.-->
 
 3. What are the 4 areas of the box model?
 
+<!-- The 4 areas of the box model from "interior" to "exterior" are: Content, Padding, Border, Margins. -->
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+<!-- The cross axis. The items will be centered both along the x and y axis. -->
+
 5. Explain why git is valuable to a team of developers.
+
+<!-- Github is valuable to a team of developers as it is specifically made for developers (as compared to file-hosting services like Dropbox or Google Drive). Github understands what language files are written in, and shows a breakdown of what language the project is composed of in percentages. Github also allows its users to view the files without downloading them, and displays the README file on the main page of the repository. It keeps track of every change to a version and allows those who view the file to see changes between versions. It allows the developers to explain what they change with each commit. If there is ever a mistake done by one team member, another can look over the version history of the project and revert the changes or see what has gone wrong along the way. -->
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -99,6 +109,6 @@ Note: Please make sure you are using flexbox to layout your website. Floats, inl
 
 After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals:
 
-* [ ] refactor your HTML, make sure it's indented properly, clean, readable, you have written appropriate comments where necessary and that all attributes (required and encouraged) are filled out correctly.  
-* [ ] Ensure your CSS is organized and readable, you've seperated your code by section and that you are using descriptive class names and adding classes in your HTML where styles repeat rather than rewrting the same styles over again
-* [ ] Use a flex item property of your choice when laying out a section of your website, ensure you can explain how and why you've used this property 
+* [X] refactor your HTML, make sure it's indented properly, clean, readable, you have written appropriate comments where necessary and that all attributes (required and encouraged) are filled out correctly.  
+* [X] Ensure your CSS is organized and readable, you've seperated your code by section and that you are using descriptive class names and adding classes in your HTML where styles repeat rather than rewrting the same styles over again
+* [x] Use a flex item property of your choice when laying out a section of your website, ensure you can explain how and why you've used this property 
