@@ -25,7 +25,7 @@ time, mark, audio, video {
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+footer,  hgroup, menu, nav, section {
 	display: block;
 }
 body {
@@ -65,28 +65,90 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+nav {
+    display: flex;
+    position: center;
+    flex-direction: row;
+    align-content: space-between;
+    width: 78%;
+    align-items: baseline;
+   }
 
+header {
+    display: block;
+}
+header section {
+    height: 80px;
+    margin-bottom: 40px;
+   
+}
+header section img {
+    margin-top: 20px;
+   
+}
+header section nav a{
+    text-decoration: none; 
+    margin-right: 35px;
+    margin-left: 35px;
+    color: black;
+    
+ }
 .container {
     width: 800px;
     margin: 0 auto;
+  
 }
-
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    margin-top: 20px;
 }
 
 .top-content .text-container {
-    width: 48%;
+    width: 50%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+.services {
+    margin-top: 60px;
+    border-bottom: 1px dashed black;
+    width: 48%;
+   
+   
+}
+.services img {
+    width: 100%;
+}
+.text-container-about {
+    width: 95%;
+    margin-bottom: 20px;
+   
+}
+
+.LM-Button {
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 30%;
+    text-align: center;
+    padding: 5px 10px;
+    font-size: 13px;
+    margin: 10px 0px 20px 0px;
+}
+
+.myFlex-Container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    
+}
 
 .middle-content {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     border-bottom: 1px dashed black;
 }
 
@@ -104,13 +166,22 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+#box1 {background-color: teal;}
+#box2 {background-color: gold;}
+#box3 {background-color: cadetblue;}
+#box4 { background-color: coral;}
+#box5 { background-color: crimson;}
+#box6 { background-color: forestgreen;}
+#box7 {background-color: darkorchid;}
+#box8 {background-color: hotpink;}
+#box9 {background-color: indigo;}
+#box10 {background-color: dodgerblue;}
 
 .bottom-content {
     display: flex;
