@@ -69,12 +69,13 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    
 }
 
 .top-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -138,9 +139,112 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    font-weight: bold;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.navigation-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;    
+}
+.nav-bar a {
+    text-decoration: none;
+    padding: 10px;
+    color: black; 
+    display: block;
+
+}
+.nav-bar {
+    display: flex;
+}
+.nav-bar a:hover {
+    color:blue;
+    transform: rotate(10deg);
+}
+.lambda-logo {
+    padding: 15px;
+    margin-top: 10px;
+}
+.lambda-logo h1::first-letter{
+    font-size: 45px;
+    padding:0 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.lambda-logo h1:before {
+    content: '\03BB';
+     
+}
+.box1 {
+    background-color: teal !important;
+    
+}
+.box2 {
+    background-color: gold !important;
+    
+}
+.box3 {
+    background-color: cadetblue  !important;
+    
+}
+.box4 {
+    background-color:coral  !important;
+    
+}
+.box5 {
+    background-color: crimson  !important;
+    
+}
+.box6 {
+    background-color: forestgreen  !important;
+    
+}
+.box7 {
+    background-color: darkorchid  !important;
+    
+}
+.box8 {
+    background-color: hotpink;
+    
+}
+.box9 {
+    background-color: indigo  !important;
+    
+}
+.box10 {
+    background-color: dodgerblue  !important;
+    
+}
+/* about */
+.about-page {
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    align-content: center;
+    text-align: center;
+    justify-content: space-between;
+}
+.child-about {
+    border-bottom: 2px dotted black;
+    flex-basis: 30%;
+    margin:4px;
+    padding: 10px;
+    
+}
+header {
+    border-bottom: 2px dotted black;
+    margin:2%;
+    padding: 30px;
+}
+button{
+    padding:10px;
+    border:2px solid black;
+    border-radius: 10px;
+    background-color: white;
 }
