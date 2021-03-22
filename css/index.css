@@ -95,6 +95,7 @@ p {
     margin-bottom: 0;
 }
 
+/* Boxes */
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +113,46 @@ p {
     justify-content: center;
 }
 
+#b1 {
+    background-color: teal;
+}
+
+#b2 {
+    background-color: gold;
+}
+
+#b3 {
+    background-color: cadetblue;
+}
+
+#b4 {
+    background-color: coral;
+}
+
+#b5 {
+    background-color: crimson;
+}
+
+#b6 {
+    background-color: forestgreen;
+}
+
+#b7 {
+    background-color: darkorchid;
+}
+
+#b8 {
+    background-color: hotpink;
+}
+
+#b9 {
+    background-color: indigo;
+}
+
+#b10 {
+    background-color: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -126,9 +167,42 @@ p {
     padding-right: 0;
 }
 
+header {
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: baseline; 
+}
+
+.topimg {
+    margin-left: 310px;
+}
+
+.topnav {
+    width:100%;
+    background: white;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 230px;
+}
+
+.topnav a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.midimg {
+    margin: 20px;
+    display:flex;
+    justify-content: center;
+}
+
 footer {
-    width: 100%;
+    width: 60%;
     background: black;
+    margin: 0 350px;
 }
 
 footer nav {
@@ -143,4 +217,67 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.body-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 25%;
+    line-height: 20px;
+    font-weight: bold;
+}
+
+.about {
+    justify-content: center;
+    border-bottom: 1px dashed black;
+    margin: 0 370px 0 370px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    line-height: 20px;
+    
+}
+
+.box {
+    width: 48%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+
+}
+
+#section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.strategy {
+    border-bottom: 1px dashed black;
+    text-align: left;
+}
+
+.hww {
+    border-bottom: 1px dashed black;
+}
+
+.pww {
+    border-bottom: 1px dashed black;
+}
+
+.collab {
+    border-bottom: 1px dashed black;
+}
+ button{
+     margin-top: 3%;
+     padding: 10px;
+     border-radius: 10px;
+     background-color: white;
+     font-weight: bold;
+ }
+
+.lwt {
+    margin: 50px 370px 50px 370px;
+    font-weight: bold;
+    line-height: 20px;
 }
