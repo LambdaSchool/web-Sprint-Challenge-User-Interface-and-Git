@@ -99,7 +99,9 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    
 }
+
 
 .middle-content .boxes .box {
     width: 12.5%;
@@ -110,6 +112,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 .bottom-content {
@@ -144,3 +147,69 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+header{
+    font-size: 40px;
+}
+.boxes{
+
+    
+}
+.bg-img {
+    /* The image used */
+    background-image: image('road');
+  
+    min-height: 380px;
+    display: flex;
+    justify-content: stretch;
+
+   
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* Needed to position the navbar */
+    position: relative;
+  }
+  
+  /* Position the navbar container inside the image */
+  .container {
+    position: absolute;
+    margin: 20px;
+    width: auto;
+  }
+  
+  /* The navbar */
+  .topnav {
+     
+    overflow: hidden;
+    
+  }
+  
+  /* Navbar links */
+  .topnav a {
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+ header{
+    display: flex;
+    justify-content: space-evenly;
+    
+ }
+ .center {
+    justify-content: center;
+    margin-left: auto;
+    margin-right: au1to;
+    width: 100%;
+    padding-left: 30%;
+  }
+ 
