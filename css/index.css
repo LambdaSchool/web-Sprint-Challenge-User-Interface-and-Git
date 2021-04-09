@@ -68,7 +68,12 @@ p {
 
 .container {
     width: 800px;
+    padding: 0;
     margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .top-content {
@@ -88,6 +93,7 @@ p {
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    width: 100%;
 }
 
 .middle-content h2 {
@@ -126,9 +132,23 @@ p {
     padding-right: 0;
 }
 
+/*****Lift******/
+
+div {
+    padding: 1%;
+
+}
+
+section {
+    padding: 1%;
+}
+
+/***************/
+  
 footer {
     width: 100%;
     background: black;
+    margin-bottom: -10%;
 }
 
 footer nav {
@@ -143,4 +163,169 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin-top: 5%;
+}
+
+header nav a {
+    color: black;
+    background-color: white;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+.about-page {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    text-align: left;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+.grid::after {
+    content: '';
+    border-bottom: 1px black dashed;
+    width: 100%;
+    margin-top: 10%;
+    align-self: center;
+}
+
+
+.grid h2 {
+    margin-top: 5%;
+}
+
+.grid-flex {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+}
+
+.grid-controller {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+div.learn-more {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.about-about {
+    border-bottom: 1px black dashed;
+    width: 95%;
+    line-height: 2;
+    padding: 4%;
+    margin-top: -2%
+}
+
+.about-section {
+    background-color: red;
+    padding: 2%;
+}
+
+.jumbo-about{
+    width: 100%;
+}
+
+.jumbo {
+    width: 100%;
+}
+
+#teamwork {
+    line-height: 2;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: left;
+    padding: 4%;
+}
+
+.learn-more {
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    width: 50%;
+    line-height: 2;
+    margin-top: 4%;
+}
+
+.learn-more:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.button {
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.teal {
+    background-color: teal !important;
+}
+
+.gold {
+    background-color: gold !important;
+}
+
+.cadetblue {
+    background-color: cadetblue !important;
+}
+
+.coral {
+    background-color: coral !important;
+}
+
+.crimson {
+    background-color: crimson !important;
+}
+
+.forestgreen {
+    background-color: forestgreen !important;
+}
+
+.darkorchid {
+    background-color: darkorchid !important;
+}
+
+.hotpink {
+    background-color: hotpink !important;
+}
+
+.indigo {
+    background-color: indigo !important;
+}
+
+.dodgerblue {
+    background-color: dodgerblue !important;
 }
