@@ -66,10 +66,154 @@ p {
     line-height: 1.4;
 }
 
+.mid-header{
+    margin-bottom: 100px;
+}
 .container {
     width: 800px;
     margin: 0 auto;
 }
+
+.container about-page {
+   display: flex;
+   flex-flow:row wrap;
+   align-items: space-around;
+}
+.container-about-page div{
+   margin-top: 30%;
+   width:  50%;
+   margin-bottom: 300px;
+   margin-right: 6%;
+}
+
+
+
+/*NOT SURE ABOUT THIS PART*/
+.logo img {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.logo {
+    margin-right: 3em;
+}
+.nav-bar {
+    padding: 1% 0;
+    border-radius: 5px;
+    width:100%;
+    text-align: center;
+    color: ;
+    /*text-decoration: none;
+    background-color: ;*/
+
+}
+
+.mb1{
+    margin-bottom: 1em;
+}
+
+.mt1{
+    margin-top: 1em;
+}
+
+.w50p{
+    width: 50%;
+}
+
+.d-flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.justify-content-center{
+    justify-content: space-between;
+}
+
+.align-items-end{
+    align-items: flex-end;
+}
+
+.learn-more {
+    border: radius;
+    border-radius: 5px;
+}
+
+/*CODE BETWEEN THIS TWO COMMENTS I AM NOT SURE! I WANTED TO CENTER THE NAV ITEMS AND LOGO 
+navbar logo img added*/
+/*box1: `teal`
+* [ ] box2: `gold`
+* [ ] box3: `cadetblue`
+* [ ] box4: `coral`
+* [ ] box5: `crimson`
+* [ ] box6: `forestgreen`
+* [ ] box7: `darkorchid`
+* [ ] box8: `hotpink`
+* [ ] box9: `indigo`
+* [ ] box10: `dodgerblue `*/
+
+.container-wrapper{
+   display: flex;
+   flex-flow:row wrap;
+   align-items: space-around;
+   justify-content: space-around; 
+}
+
+.container-wrapper div{
+   margin-top: 3%;
+   margin-bottom: 3%;
+   margin-right: 6%;
+
+}
+
+.flex-container {
+    display: flex;
+    flex-flow:row wrap;
+}
+*{
+  box-sizing:border-box;
+  padding:0;
+  margin:0;
+}
+.box {
+
+    height: 100px;
+    width:  100px; 
+    flex-grow: 1;
+    line-height: 100px;
+    text-align: center;
+    color:#fff
+} 
+.box1{
+    background-color: teal;
+}
+.box2 {
+    background-color:gold ;
+}
+.box3 {
+    background-color: cadetblue;
+}
+.box4 {
+    background-color: coral;
+}
+.box5 {
+    background-color: crimson;
+}
+.box6 {
+    background-color: forestgreen;
+}
+.box7 {
+    background-color: darkorchid;
+}
+.box8 {
+    background-color: hotpink;
+}
+.box9 {
+    background-color: indigo;
+}
+.box10 {
+    background-color: dodgerblue;
+}
+
 
 .top-content {
     display: flex;
@@ -82,7 +226,8 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
+    margin-top: 3%;  
 }
 
 .middle-content {
