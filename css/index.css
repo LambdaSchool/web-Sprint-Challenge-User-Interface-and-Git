@@ -89,7 +89,11 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
+.about-top {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
@@ -101,10 +105,40 @@ p {
     justify-content: space-evenly;
 }
 
+.teal {
+    background: teal;
+}
+.gold {
+    background: gold;
+}
+.cadetblue {
+    background: cadetblue;
+}
+.coral {
+    background: coral;
+}
+.crimson {
+    background: crimson;
+}
+.forestgreen {
+    background: forestgreen;
+}
+.darkorchid {
+    background: darkorchid;
+}
+.hotpink {
+    background: hotpink;
+}
+.indigo {
+    background: indigo;
+}
+.dodgerblue {
+    background: dodgerblue;
+}
+
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +177,63 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+header {
+    display: flex;
+    width: 800px;
+    padding: 2%;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+header nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 600;
+}
+header nav a {
+    text-decoration: none;
+    color: black;
+    justify-content: space-around;
+}
+.topImg {
+    width: 800px;
+    margin: 2% auto;
+}
+.about-content {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.aboutSection {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    justify-content: space-around;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+}
+.aboutSection img {
+    margin-bottom: 2%;
+}
+.learnButton{
+    width: 50%;
+    height: 35%;
+    text-align: center;
+    border: 3px solid black;
+    padding: 1%;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-bottom: 2%;
+}
+.aboutBottom {
+    width: 750px;
+    margin: 0 auto;
+    margin-bottom: 5%;
 }
