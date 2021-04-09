@@ -112,6 +112,8 @@ p {
     justify-content: center;
 }
 
+
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -144,3 +146,155 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.middle-content .boxes .box:first-child{
+    background-color:teal;,
+}
+
+#boxtwo{
+    background-color:gold;
+}
+#boxthree{
+    background-color:cadetblue;
+}
+#boxfour{
+    background-color:coral;
+}
+#boxfive{
+    background-color:crimson;
+}
+#boxsix{
+    background-color:forestgreen;
+}
+#boxseven{
+    background-color:darkorchid;
+}
+#boxeight{
+    background-color:hotpink;
+}
+#boxnine{
+    background-color:indigo;
+}
+#boxten{
+    background-color:dodgerblue;
+}
+.topNav nav{
+    display:flex;
+    flex-direction:row;
+    font-size:1rem;
+    justify-content:center;
+    align-items:flex-end;
+   
+
+}
+
+.navA{
+    text-decoration:none;
+    color:black;
+    border-color:darkblue;
+    width:10%;
+    height:2%;
+    padding-left:150px;
+    padding-bottom:20px;
+    
+    
+}
+.imgL{
+ display:flex;
+ align-items:baseline;
+ padding-left:23%;
+ padding-top:8%;
+ margin-top:-100px;
+
+;
+}
+
+.itemContain{
+    display:flex;
+    justify-content:center;
+    padding-bottom:50px;
+  
+
+}
+.aboutText{
+    border-bottom-style:dotted;
+    border-width:2px;
+    padding-bottom:50px;
+}
+
+/*About Page Styles*/
+
+.aboutText{
+    margin-top:20px;
+    line-height:1.2;
+}
+
+.building{
+    display:flex;
+    justify-content:center;
+   }
+
+  
+  /*image styling*/
+  
+   .firstblock{
+       display:flex;
+       justify-content:space-between;
+       align-items:stretch;
+       margin-top:60px;
+       }
+   
+    .secondBlocks{
+       display:flex;
+       justify-content:space-between;
+       margin-top:20px;
+       margin-bottom:20px
+   }
+
+    /*Text styling */
+   .twotexts{
+       display:flex;
+       margin-top:20px;
+       margin-bottom:20px;
+      
+   }
+
+   .bottomtexts{
+       display:flex;
+   }
+
+   .worktogether{
+       padding-top:20px;
+   }
+
+   .worktogether{
+       margin-top:20px;
+       margin-bottom:30px;
+   }
+
+   .twotexts{
+    border-bottom-style:dotted;
+    border-width:2px;
+    padding-bottom:25px;
+
+   }
+   .bottomtexts{
+    border-bottom-style:dotted;
+    border-width:2px;
+    padding-bottom:20px;
+
+   }
+  h4{
+    width: 30%;
+    height: 30px;
+    color:black;
+    border:2.5px solid;
+    border-radius:1.5rem;
+    margin-top:20px;
+    margin-bottom:5px;
+    padding-top:5px;
+    padding-left:10px;
+    padding-bottom:10px;
+   }
+
+
