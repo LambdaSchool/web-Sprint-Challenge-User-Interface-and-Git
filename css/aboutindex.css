@@ -64,6 +64,7 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+    padding: 15px;
 }
 
 .container {
@@ -144,25 +145,14 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
- 
+
 .topstuff {
     display:inline-flex;
     padding: 20px;
 }
 
-.bigimg {
-    margin-bottom:15px;
-    margin-top:10px;
-}
-
-.logo {
-    height: 45px;
-    margin-left: 540px;
-}
 .topnav {
     padding: 15px;
-	/* margin-left: 100px; */
-
 }
 
 .anav {
@@ -174,30 +164,68 @@ footer nav a {
     font-size: 13px;
 }
 
-#two {
-    background-color:gold;
+.logo {
+    height: 45px;
+    margin-left: 540px;
 }
-#three {
-    background-color: cadetblue;
+
+.topgroup {
+    display:flex;
+    flex-direction: column;
+    padding:15px;
+    border-bottom: 1px dashed black;
 }
-#four {
-    background-color: coral;
+
+.midgroup {
+    display:flex;
+    flex-direction: column;
+    padding:15px;
+    border-bottom: 1px dashed black;
 }
-#five {
-    background-color:crimson;
+
+.btmgroupone {
+    display:flex;
+    flex-direction: column;
+    padding:15px;
+    border-bottom: 1px dashed black;
 }
-#six {
-    background-color:forestgreen;
+
+.btmgrouptwo {
+    display:flex;
+    flex-direction: column;
+    padding:15px;
+    border-bottom: 1px dashed black;
 }
-#seven {
-    background-color:darkorchid;
+
+.midimg {
+    height:150px;
+    width:250px;
 }
-#eight {
-    background-color:hotpink;
+
+.bigone {
+    display:flex;
+    
 }
-#nine {
-    background-color:indigo;
+
+.bigtwo {
+    display:flex;
 }
-#ten {
-    background-color:dodgerblue;
+
+.toptext {
+    padding:10px;
+    margin-left: 6px;
+    border-bottom: 1px dashed black;
+}
+
+button {
+    width:100px;
+    padding:6px;
+    margin-top: 15px;
+    border-radius: 10%;
+
+}
+
+.bottomtext {
+    margin-bottom:40px;
+    margin-left: 16px;
 }
