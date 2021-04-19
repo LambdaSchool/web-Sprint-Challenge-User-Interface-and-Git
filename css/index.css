@@ -62,6 +62,33 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+header {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    padding: 10px;
+}
+
+header img {
+    display: flex;
+}
+
+header nav a {
+    display: inline-flex;
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+}
+
+.top-img {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+
 p {
     line-height: 1.4;
 }
@@ -101,15 +128,124 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box-1 {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: rgb(158, 148, 148);
     margin: 20px 2.5%;
-    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: white;
+    background-color: teal;
+}
+
+.middle-content .boxes .box-2 {
+    width: 12.5%;
+    height: 100px;
+    background: rgb(158, 148, 148);
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: gold;
+}
+
+.middle-content .boxes .box-3 {
+    width: 12.5%;
+    height: 100px;
+    background: rgb(158, 148, 148);
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box-4 {
+    width: 12.5%;
+    height: 100px;
+    background: rgb(158, 148, 148);
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: coral;
+}
+
+.middle-content .boxes .box-5 {
+    width: 12.5%;
+    height: 100px;
+    background: rgb(158, 148, 148);
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: crimson;
+}
+
+.middle-content .boxes .box-6 {
+    width: 12.5%;
+    height: 100px;
+    background: rgb(158, 148, 148);
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box-7 {
+    width: 12.5%;
+    height: 100px;
+    background: rgb(158, 148, 148);
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box-8 {
+    width: 12.5%;
+    height: 100px;
+    background: rgb(158, 148, 148);
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box-9 {
+    width: 12.5%;
+    height: 100px;
+    background: rgb(158, 148, 148);
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: indigo;
+}
+
+.middle-content .boxes .box-10 {
+    width: 12.5%;
+    height: 100px;
+    background: rgb(158, 148, 148);
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +279,114 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+button {
+    border: solid black 2px;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.about-section {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 10px 100px 10px 100px;
+    padding: 10px 100px 10px 100px;
+    align-items: center;
+    border-bottom: dotted black 3px;
+}
+
+.about-title {
+    margin: 10px 10px 10px 0px;
+    align-self: flex-start;
+}
+
+.all-content {
+    display: inline-flex;
+    flex-flow: row wrap;
+    margin: 10px 0px 10px 160px;
+    padding: 10px;
+}
+
+.strat-how {
+    display: flex;
+    flex-flow: row;
+
+}
+
+.strategy {
+    border-bottom: dotted black 3px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.strat-title {
+    margin: 10px;
+    padding: 10px;
+    justify-self: flex-start;
+    align-self: flex-start;
+}
+
+.how-section {
+    border-bottom: dotted black 3px;
+    margin: 10px;
+    padding: 10px;
+    align-self: flex-end;
+}
+
+.how-title{
+    margin: 10px;
+    padding: 10px;
+    justify-self: flex-start;
+    align-self: flex-start;
+}
+
+.places-collab {
+    display: flex;
+    flex-flow: row;
+    margin: 10px;
+    padding: 10px;
+}
+
+.places{
+    border-bottom: dotted black 3px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.places-title {
+    margin: 10px;
+    padding: 10px;
+    justify-self: flex-start;
+    align-self: flex-start;
+}
+
+.collab {
+    border-bottom: dotted black 3px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.collab-title {
+    margin: 10px;
+    padding: 10px;
+    justify-self: flex-start;
+    align-self: flex-start;
+}
+
+
+.work-together {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 10px 100px 10px 100px;
+    padding: 10px 100px 10px 100px;
+    align-items: center;
+}
+
+.work-together-title {
+    margin: 10px 10px 10px 0px;
+    align-self: flex-start;
 }
