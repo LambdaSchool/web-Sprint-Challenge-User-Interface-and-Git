@@ -2,7 +2,11 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+*{
+    box-sizing: border-box;
+    max-width: 950px;
 
+}
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -31,6 +35,22 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+nav a{
+    margin: 20px;
+    padding-left: 0%;
+    display: inline-block;
+}
+nav ul {
+margin: 10px;
+padding: 0px;
+list-style: none;
+align-content: space-between;
+}
+nav li{
+    display: inline-block;
+    margin-left: 0px;
+    padding-top: 15px;
+}
 ol, ul {
 	list-style: none;
 }
@@ -47,10 +67,6 @@ table {
 	border-spacing: 0;
 }
 
-* {
-    box-sizing: border-box;
-}
-
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -64,6 +80,10 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+}
+li {
+    color: black;
+        text-decoration: none;
 }
 
 .container {
@@ -84,6 +104,29 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+.top-container1{
+    margin: 10px;
+}
+.top-container2{
+    margin: 10px;
+}
+.break{
+    display: flex;
+    max-width: 100%;
+    align-content: center;
+}
+.top-paragraphs {
+    display: flex;
+    border-bottom: 1px dashed black;
+}
+.box{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: center;
+padding-top: 7%;
+padding-bottom: 5%;
+}
 
 .middle-content {
     margin-bottom: 20px;
@@ -91,25 +134,20 @@ p {
 }
 
 .middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
+    padding: 3 2%;
+    margin-bottom: 0 auto 0 10px;
+    align-content: center;
 }
 
 .middle-content .boxes {
+    width: 100%;
+    height: 100px;
+    background: white;
+    margin: 20px 0%;
+    color: white;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-}
-
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .bottom-content {
@@ -137,10 +175,12 @@ footer nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 footer nav a {
     color: white;
+    background-color: black;
     text-decoration: none;
+    margin: 12px;
 }
