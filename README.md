@@ -1,3 +1,9 @@
+initial commit
+trying to push - again!
+
+
+
+
 # Sprint Challenge: User Interface and Git - Multi-Page Website
 
 This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a concrete project. This Sprint explored User Interface and Git. During this Sprint, you studied Semantic HTML, CSS Fundamentals, CSS Flexbox Module, and Git. In your challenge this week, you will demonstrate proficiency by creating a multi page website that has some missing HTML elements as well as CSS specificity problems that need to be solved.  You will also create an additional web page that will be linked to from a navigation you will build.
@@ -33,14 +39,23 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read.
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+Sematic HTML is something to help keep the structure of the web-design together. Makes it easier to read and helps other 
+developers as well.
 
-2. Name two big differences between ```display: block;``` and ```display: inline;```.
+2. Name two big differences between display: block; and display: inline;.
+Block styled elements take up as much space as the container while inline only takes up as much space as it needs,
+(eg. spans are inline, divs are block)
 
 3. What are the 4 areas of the box model?
+content, padding, border, margin
 
-4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+4. While using flexbox, what axis does the following property work on: align-items: center?
+cross axis (flex-direction: column--the x axis)
 
 5. Explain why git is valuable to a team of developers.
+Git is valuable because it allows you to work together on a project by branching from the master and merging in the changes. 
+Everyone can be working on their own branch and merge all features into the single master file. 
+Commits also allow you to backtrack and have "blame".
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -66,8 +81,8 @@ Your finished project must include all of the following requirements:
 
 [Review the provided design file for the home page](design-files/home.png).  Notice the navigation and header images are missing.
 
-* [ ] Build the HTML and CSS to create the missing navigation and header.
-* [ ] Link the `About` navigation item to the [about.html](about.html) page
+* [x] Build the HTML and CSS to create the missing navigation and header.
+* [x] Link the `About` navigation item to the [about.html](about.html) page
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
 
