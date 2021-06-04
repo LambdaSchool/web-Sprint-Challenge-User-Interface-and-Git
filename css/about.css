@@ -136,42 +136,51 @@ table {
   box-sizing: border-box;
 }
 
-html,
-body {
-  height: 100%;
-  font-family: "Roboto", sans-serif;
-}
-
 h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+h6 {
   font-size: 18px;
   margin-bottom: 15px;
   font-family: "Rubik", sans-serif;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 
 p {
   line-height: 1.4;
+  font-family: "Rubik", sans-serif;
+}
+
+a {
+  font-family: "Rubik", sans-serif;
 }
 
 /* top nav bar with lambda logo on left side */
-
 .top-nav {
   display: flex;
-  justify-content: space-between;
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
 }
 
 header nav {
-  width: 60%;
+  width: 80%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  padding: 20px 2%;
   font-size: 14px;
+}
+
+.logo-container {
+  width: 25%;
+  margin-top: 1%;
+}
+
+.top-nav img {
+  width: 90%;
+  padding-bottom: 10%;
 }
 
 header nav a {
@@ -179,104 +188,127 @@ header nav a {
   text-decoration: none;
 }
 
-.logo-container {
-  width: 20%;
-  margin-top: 1%;
-}
-
-.top-nav img {
-  width: 100%;
-}
-
 /*Picture across top of page*/
 
 .jumbo-container {
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 .jumbo-container img {
   width: 100%;
   margin-bottom: 1%;
 }
 
-/* first paragraphs under the picture across page */
+/* about section */
+.about-section {
+  width: 75%;
+  margin: 0 auto;
+  border-bottom: 1px dashed black;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 2%;
+}
 
-.container {
-  width: 800px;
+.about-section p {
+  padding-bottom: 2%;
+}
+
+/* middle section */
+.middle {
+  margin-bottom: 2%;
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
   margin: 0 auto;
 }
 
-.top-content {
+.middle img {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  margin-bottom: 20px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  width: 35vh;
+  margin-top: 5%;
+}
+
+.middle button {
+  margin-top: 2%;
+}
+
+.middle img {
+  padding-bottom: 2%;
+}
+
+.strat {
+  width: 45%;
   border-bottom: 1px dashed black;
 }
 
-.top-content .text-container {
-  width: 48%;
-  padding: 0 1%;
-  padding-bottom: 20px;
-}
-
-/* Boxes in middle of the page*/
-
-.middle-content {
-  margin-bottom: 20px;
+.work {
+  width: 45%;
   border-bottom: 1px dashed black;
 }
 
-.middle-content h2 {
-  padding: 0 2%;
-  margin-bottom: 0;
+/* bottom section */
+
+.bottom {
+  margin-bottom: 2%;
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  margin: 0 auto;
 }
 
-.middle-content .boxes {
+.bottom img {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  width: 35vh;
+  margin-top: 10%;
 }
 
-.middle-content .boxes .box {
-  width: 12.5%;
-  height: 100px;
-  background: black;
-  margin: 20px 2.5%;
-  color: white;
+.bottom button {
+  margin-top: 2%;
+}
+
+.places {
+  width: 45%;
+  border-bottom: 1px dashed black;
+}
+
+.collab {
+  width: 45%;
+  border-bottom: 1px dashed black;
+}
+
+/* Together Section*/
+
+.together-section {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 75%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.together p {
+  align-content: center;
 }
 
-/* Bottom paragraph sections below the boxes*/
-
-.bottom-content {
-  display: flex;
-  margin: 0 2% 20px;
-  justify-content: space-around;
-}
-
-.bottom-content .text-container {
-  padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-  padding-right: 0;
-}
-
-/* footer and nav bar section at bottom of page*/
-
+/* Footer Section */
 footer {
-  width: 100%;
+  width: 80%;
   background: black;
+  margin: 0 auto;
 }
 
 footer nav {
   width: 60%;
   display: flex;
   justify-content: space-between;
-  align-items: center;
   padding: 20px 2%;
   font-size: 14px;
 }
@@ -284,4 +316,14 @@ footer nav {
 footer nav a {
   color: white;
   text-decoration: none;
+}
+
+/* Button Section */
+button {
+  font-family: "Roboto", sans-serif;
+  padding: 2% 7%;
+  border-radius: 10px;
+  border: 2px solid black;
+  background-color: white;
+  margin-bottom: 5%;
 }
