@@ -34,22 +34,33 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is the use of HTML markups to reinforce and help describe the meaning of the information in the website so that it not only looks the part, but it's easier to discern what is what.
+
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
-3. What are the 4 areas of the box model?
+First off, block will display an element with full width available before going to the next line, while inline will be displayed as taking as much width as it needs without forcing new lines. Block will cause a line break before and after the element. Inline has no line break before or after the element. Block will break up the flow while inline doesn't.
+
+3. What are the 4 areas of the box model? 
+
+From outside in: Margin, Border, Padding, Content.
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+Align-items:center property works on the cross axis.
+
 5. Explain why git is valuable to a team of developers.
+
+It is a version control system which allows developers to create a history of changes that have been made over time in their coding without compromising the integrity of the original project. Github made this easy. It is quintessential for developers working collaboratively.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [x] Create a forked copy of this project.
+- [x] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [x] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push -u origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.
@@ -71,24 +82,24 @@ Your finished project must include all of the following requirements:
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
 
-* [ ] box1: `teal`
-* [ ] box2: `gold`
-* [ ] box3: `cadetblue`
-* [ ] box4: `coral`
-* [ ] box5: `crimson`
-* [ ] box6: `forestgreen`
-* [ ] box7: `darkorchid`
-* [ ] box8: `hotpink`
-* [ ] box9: `indigo`
-* [ ] box10: `dodgerblue`
+* [#008080] box1: `teal`
+* [#FFD700] box2: `gold`
+* [#5f9ea0] box3: `cadetblue`
+* [#FF7F50] box4: `coral`
+* [#DC143C] box5: `crimson`
+* [#228B22] box6: 'forestgreen'
+* [#9932cc] box7: `darkorchid`
+* [#FFC0CB] box8: `hotpink`
+* [#3F00FF] box9: `indigo`
+* [#1e90ff] box10: `dodgerblue`
 
 ### About Page
 
 [Review the provided design file for the about page](design-files/about.png). You have been provided the HTML wrapper, footer, and page content for the about page. Create the rest of the missing HTML and CSS to match the design file.
 
-* [ ] Copy and paste your home page navigation and header into the about page
-* [ ] Update the header image with the about page image
-* [ ] Link the `Home` navigation item back to the `index.html` page.
+* [x] Copy and paste your home page navigation and header into the about page
+* [x] Update the header image with the about page image
+* [x] Link the `Home` navigation item back to the `index.html` page.
 * [ ] Build the rest of the about page layout to match the design
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
