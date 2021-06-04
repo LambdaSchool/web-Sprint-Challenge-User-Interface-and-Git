@@ -66,6 +66,58 @@ p {
     line-height: 1.4;
 }
 
+
+/*header content */
+
+nav {
+    padding: 0% 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    margin: auto;
+    align-items: baseline;
+    padding-top: 1%;
+    
+}
+
+.logo {
+    width: 20%;
+    margin-left: 1%;
+}
+
+.logo img {
+    width: 100%;
+    }
+
+.links {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}    
+
+.anchors{
+    text-decoration: none;
+    color: black;
+}
+
+
+/*top second section */
+
+
+.topbg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}    
+
+.topbg img{
+    width: 97%;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -85,6 +137,10 @@ p {
     padding-bottom: 20px;  
 }
 
+
+/*middle content */
+
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -101,16 +157,110 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+/* this div contains all the boxes but I need to assing individual classes so I can add bg colors to each one, I need 10 */
+
+.middle-content .boxes .box1 {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 .bottom-content {
     display: flex;
@@ -135,12 +285,160 @@ footer nav {
     width: 60%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
+    padding: 20px;
     font-size: 14px;
+    text-align: start;
+    margin-left: -5px;
+    
 }
+
+    
 
 footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+
+
+
+
+
+/* about page css */
+.topbg2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    width: 800px;
+}   
+
+.container2{
+    width: 800px;
+    margin: 0 auto;
+}
+
+
+
+.topAbout {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    padding-bottom: 3%;
+    margin-left: 0%;
+}
+
+.aboutDiv {
+    display: flex;
+    flex-direction:column ;
+    justify-content: flex-start;
+    width: 98%;
+
+}
+/* Middle section with four boxes*/
+
+.aboutImg {
+    width: 100%;
+    padding-bottom: 4%;
+}
+
+.FourBoxAbout {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 800px;
+
+    
+}
+
+.aboutBox1 {
+    
+    width: 49%;
+    border-bottom: 1px dotted black;
+    padding: 2%;
+    
+}
+
+.aboutBox2 {
+    width: 49%;
+    border-bottom: 1px dotted black;
+    padding: 2%;
+}
+
+
+.aboutBox3 {
+    width: 49%;
+    border-bottom: 1px dotted black;
+    padding: 2%;
+}
+.aboutBox4 {
+    width: 49%;
+    border-bottom: 1px dotted black;
+    padding: 2%;
+}
+
+
+
+/*AboutBottom Section */
+
+.AboutBottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    padding-bottom: 3%;
+    margin-left: 2%;
+    padding-top: 6%;
+}
+
+button {
+    background-color: transparent;
+    border-radius: 8px;
+    padding: 2%;
+}
+
+
+/* product page */
+
+.Products {
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.productvideo {
+    
+    padding-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 5%;
+}
+
+ .buttonLast {
+    padding-top: 0%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 5%;   
+} 
+
+.JoinButton {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 2%;
+    border-radius: 5px;
+    color: black
+}
+
