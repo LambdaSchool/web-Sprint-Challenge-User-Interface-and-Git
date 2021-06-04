@@ -70,7 +70,21 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-
+.nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 25px auto;
+}
+.nav a{
+    text-decoration: none;
+    color: #000;
+}
+.jumbo{
+    width: auto;
+    margin: 25px auto;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -111,6 +125,27 @@ p {
     align-items: center;
     justify-content: center;
 }
+#one{
+    background-color: teal;
+}#two{
+    background-color: gold;
+}#three{
+    background-color: cadetblue;
+}#four{
+    background-color: coral;
+}#five{
+    background-color: crimson;
+}#six{
+    background-color: forestgreen;
+}#seven{
+    background-color: darkorchid;
+}#eight{
+    background-color: hotpink;
+}#nine{
+    background-color: indigo;
+}#ten{
+    background-color: dodgerblue;
+}
 
 .bottom-content {
     display: flex;
@@ -143,4 +178,61 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*---- ABOUT PAGE ----*/
+#jumbo{
+    margin: 25px auto;
+    width: 90%;
+}
+#jumbo img{
+    width: 100%;
+    height: auto;
+}
+.bottom {
+    width: 90%;
+    margin: 0 auto;
+}
+#bottom-border{
+    border-bottom: 1.75px dashed black;
+    padding-bottom: 40px;
+
+}
+.four-boxes #bottom-border{
+    margin: 15px auto;
+}
+.four-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 10px;
+}
+.box-one, .box-two, .box-three, .box-four{
+    width: 45%;
+    position: relative;
+    padding: 25px;
+}
+.four-boxes h2{
+    margin: 10px auto;
+    text-align: center;
+}
+.four-boxes p{
+    text-align: left;
+    width: 90%;
+    margin: 20px auto;
+}
+.four-boxes a{
+    text-decoration: none;
+    color: #000;
+    border: 2px solid darkgray;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+}
+.four-boxes img{
+    width: 100%;
+}
+.last-section{
+    width: 90%;
+    margin: 25px auto;
 }
