@@ -1,8 +1,6 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
+   v2.0 | 20110126 License: none (public domain)*/
+/*#region*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -47,13 +45,19 @@ table {
 	border-spacing: 0;
 }
 
+/*#endregion*/
+
+/* GENERAL STYLES */
+/*#region*/
 * {
     box-sizing: border-box;
+    
 }
 
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    
 }
 
 h1, h2, h3, h4, h5 {
@@ -71,6 +75,47 @@ p {
     margin: 0 auto;
 }
 
+/*#endregion*/
+
+/* HEADER STYLES */
+/*#region*/
+
+header {
+    width: 800px;
+    margin: 1% auto;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+}
+
+.navbar a {
+    text-decoration: none;
+    width: 20%;
+    font-size: .9rem;
+}
+
+.header-top {
+    display: flex;
+    align-items: baseline;
+    
+    justify-content: space-around;
+    margin: 0 0 5% 0;
+    
+}
+.header-top img {
+    margin: 0 8% 0 0;
+}
+
+.header-img {
+      margin: 2% auto;
+}
+/*#endregion*/
+
+/* TOP CONTENT STYLES */
+/*#region*/
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -84,6 +129,11 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+/*#endregion*/
+
+/* MIDDLE CONTENT STYLES */
+/*#region*/
 
 .middle-content {
     margin-bottom: 20px;
@@ -112,6 +162,52 @@ p {
     justify-content: center;
 }
 
+/* BOX COLORS */
+
+.middle-content .boxes .box:nth-child(1) {
+    background: teal;
+  }
+
+  .middle-content .boxes .box:nth-child(2) {
+    background: gold;
+  }
+
+  .middle-content .boxes .box:nth-child(3) {
+    background: cadetblue;
+  }
+
+  .middle-content .boxes .box:nth-child(4) {
+    background: coral;
+  }
+
+  .middle-content .boxes .box:nth-child(5) {
+    background: crimson;
+  }
+
+  .middle-content .boxes .box:nth-child(6) {
+    background: forestgreen;
+  }
+
+  .middle-content .boxes .box:nth-child(7) {
+    background: darkorchid;
+  }
+
+  .middle-content .boxes .box:nth-child(8) {
+    background: hotpink;
+  }
+
+  .middle-content .boxes .box:nth-child(9) {
+    background: indigo;
+  }
+
+  .middle-content .boxes .box:nth-child(10) {
+    background: dodgerblue;
+  }
+
+/*#endregion*/
+
+/* BOTTOM CONTENT STYLES */
+/*#region*/
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -126,6 +222,10 @@ p {
     padding-right: 0;
 }
 
+/*#endregion*/
+
+/* FOOTER STYLES */
+/*#region*/
 footer {
     width: 100%;
     background: black;
@@ -144,3 +244,59 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*#endregion*/
+
+/* ABOUT PAGE STYLES */
+/*#region*/
+
+
+.container_about-page {
+    width: 100%;
+}
+
+.about-top {
+    padding: 2% 3%;
+    border-bottom: 1px dashed black;
+}
+
+.about-content {
+    width: 93%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 4%;
+    justify-content: space-evenly;
+}
+
+.about-content .about-box {
+    width: 45%;
+    border-bottom: 1px dashed black;
+    padding: 5% 0;
+    margin: 4% 0;
+    
+}
+
+.about-box h2 {
+    margin: 3% 0;
+}
+
+.about-box p {
+    margin: 6% 0;
+}
+.about-box a {
+    border: 2px solid black;
+    border-radius: 10px;
+    margin:5% 0;
+    padding:1.5% 5%;
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+
+.about-bottom {
+    width: 100%;
+    margin: 0 0 3% 0;
+    padding: 2% 3%;
+}
+
+/*#endregion*/
