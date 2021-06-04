@@ -18,7 +18,6 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -66,6 +65,37 @@ p {
     line-height: 1.4;
 }
 
+header{
+    display: flex;
+    align-items: baseline;
+    align-content: center;
+    justify-content: center;
+    margin: 1.5% 9% 1.5% 9%;
+   
+}
+
+.nav1{
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0 20% 0 15%
+}
+
+a{
+    margin: 0 10%;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+}
+.top-link{
+    color: black;
+}
+
+.home-img{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1%;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -104,12 +134,42 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box1{
+    background-color: teal;
+}
+.box2{
+    background-color: gold;
+}
+.box3{
+    background-color: cadetblue;
+}
+.box4{
+    background-color: coral;
+}
+.box5{
+    background-color: crimson;
+}
+.box6{
+    background-color: forestgreen;
+}
+.box7{
+    background-color: darkorchid;
+}
+.box8{
+    background-color: hotpink;
+}
+.box9{
+    background-color: indigo;
+}
+.box10{
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +203,49 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.text-1{
+    margin-left: 2.5%;
+    padding-bottom: 2.75%;
+    border-bottom: dotted black;
+}
+.main-content{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.content-1{
+    max-width: 45%;
+    margin-left: 2%;
+    margin-top: 3%;
+    border-bottom: dotted black;
+}
+.content-2{
+    max-width: 45%;
+    margin-right: 2%;
+    margin-top: 3%;
+    border-bottom: dotted black;
+}
+.content-3{
+    max-width: 45%;
+    margin-left: 2%;
+    margin-top: 5%;
+    border-bottom: dotted black;
+}
+.content-4{
+    max-width: 45%;
+    margin-right: 2%;
+    margin-top: 5%;
+    border-bottom: dotted black;
+}
+button{
+    background-color: white;
+    border:1px solid black;
+    border-radius: 5px;
+    padding: 2% 5%;
+    margin: 5% 0;
+}
+.end-text{
+    margin: 5% 2%;
 }
