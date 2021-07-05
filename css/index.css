@@ -2,7 +2,6 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -29,11 +28,29 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    
+}
+
+nav {
+display: flex;
+justify-content: space-between;
+padding:40px;
+
+}
+
+nav a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    justify-content:space-around;
+
+
 }
 ol, ul {
 	list-style: none;
 }
+
 blockquote, q {
 	quotes: none;
 }
@@ -69,7 +86,19 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    
 }
+
+.lambda img{
+    width:100px;
+    height: ;
+}
+
+.big-pic{
+    display: flex;
+    100%
+}
+
 
 .top-content {
     display: flex;
@@ -99,17 +128,90 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+
 }
+
+.pics-all{
+    display: flex;
+    /* margin: 20%; */
+    /* flex-wrap: wrap; */
+    /* padding:20%; */
+    flex-direction: column;
+
+
+}
+.pic12{
+    display: flex;
+    flex-direction:row;
+    border-top: 1px dotted grey;
+    width: 100%;
+    margin-top: 20px;
+    margin: 20px;
+    border-bottom: 1px dotted grey;
+    
+}
+
+
+
+.pic34{
+    display:flex;
+    flex-direction: row;
+    border-bottom: 1px dotted grey;
+    width:100%;
+}
+
+
+
 
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+     /* background: black;  */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box:nth-child(1) {
+    background-color: teal;
+}
+
+.box:nth-child(2) {
+    background-color: gold;
+}
+
+.box:nth-child(3){
+background-color: cadetblue;
+}
+
+.box:nth-child(4){
+background-color: coral;
+}
+
+.box:nth-child(5){
+    background-color: crimson;
+}
+
+.box:nth-child(6){
+    background-color: forestgreen;
+}
+
+.box:nth-child(7){
+    background-color: darkorchid;
+}
+
+.box:nth-child(8){
+    background-color: hotpink;
+}
+
+.box:nth-child(9){
+    background-color: indigo;
+}
+
+.box:nth-child(10){
+    background-color:dodgerblue
 }
 
 .bottom-content {
